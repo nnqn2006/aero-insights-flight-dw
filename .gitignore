@@ -1,0 +1,11 @@
+# Never commit secrets, virtual environments, working files or backups
+.env
+*.env
+.venv*/
+venv*/
+__pycache__/
+*.pyc
+_fw_work/
+_backup*/
+*.tmp
+*.bak

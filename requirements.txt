@@ -1,0 +1,5 @@
+# Runtime dependencies for the deployed dashboard (snapshot mode; no database driver needed).
+dash==4.5.0
+plotly==7.1.0
+pandas==2.2.3
+gunicorn==23.0.0; platform_system != "Windows"

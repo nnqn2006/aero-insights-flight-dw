@@ -1,0 +1,182 @@
+FLIGHT x WEATHER QA REPORT
+Generated UTC: 2026-11-18T16:40:40Z
+Result: PASS
+Scope: January–September 2025
+
+[PASS] file exists: flight_weather_impact_2025.csv — D:\DATA_WAREHOUSE\09_FINAL_HANDOFF\03_DASHBOARD\03_EXPORT_DATA\flight_weather_impact_2025.csv
+[PASS] file exists: flight_weather_coverage_2025.csv — D:\DATA_WAREHOUSE\09_FINAL_HANDOFF\03_DASHBOARD\03_EXPORT_DATA\flight_weather_coverage_2025.csv
+[PASS] file exists: flight_weather_manifest_2025.json — D:\DATA_WAREHOUSE\09_FINAL_HANDOFF\03_DASHBOARD\03_EXPORT_DATA\flight_weather_manifest_2025.json
+[PASS] SHA256 matches manifest: flight_weather_impact_2025.csv
+[PASS] SHA256 matches manifest: flight_weather_coverage_2025.csv
+[PASS] impact columns = app contract — missing=[]
+[PASS] coverage columns = app contract — missing=[]
+[PASS] impact grain unique — dups=0
+[PASS] coverage grain unique — dups=0
+[PASS] impact no NULL in SourceMonth
+[PASS] impact no NULL in ExposureType
+[PASS] impact no NULL in AirportKey
+[PASS] impact no NULL in AirportCode
+[PASS] impact no NULL in PrecipitationBand
+[PASS] impact no NULL in WindSpeedBand
+[PASS] impact matched-only (no non-matched rows) — impact built from MATCHED_WEATHER_HOUR only
+[PASS] ExposureType domain
+[PASS] AirportRole consistent with ExposureType
+[PASS] Precipitation band labels
+[PASS] Wind band labels
+[PASS] Eligible <= MatchedExposureFlights
+[PASS] Delayed <= Eligible
+[PASS] Cancelled+Diverted <= Flights
+[PASS] DistinctWeather <= MatchedRows
+[PASS] DelayRatePct = Delayed/Eligible (±0.006) — max diff=0.0050
+[PASS] TotalPositiveDelayMinutes >= 0
+[PASS] Humidity/Cloud within 0–100
+[PASS] AvgMinutesAfterWeatherHour within 0–59
+[PASS] coverage key rules clean
+[PASS] manifest journal SHA256 = current journal
+[PASS] verification report present — D:\DATA_WAREHOUSE\09_FINAL_HANDOFF\03_DASHBOARD\_fw_work\bridge_verification.json
+[PASS] every exported partition is VERIFIED — not verified=[]
+[PASS] no month outside journal-complete partitions
+[PASS] 01|ACTUAL_ARRIVAL coverage rows = journal expected — 539,747 vs 539,747
+[PASS] 01|ACTUAL_ARRIVAL coverage matched = preview matched — 522,259 vs 522,259
+[PASS] 01|ACTUAL_ARRIVAL impact matched rows = coverage matched — 522,259 vs 522,259
+[PASS] 01|ACTUAL_DEPARTURE coverage rows = journal expected — 539,747 vs 539,747
+[PASS] 01|ACTUAL_DEPARTURE coverage matched = preview matched — 523,821 vs 523,821
+[PASS] 01|ACTUAL_DEPARTURE impact matched rows = coverage matched — 523,821 vs 523,821
+[PASS] 01|SCHEDULED_ARRIVAL coverage rows = journal expected — 539,747 vs 539,747
+[PASS] 01|SCHEDULED_ARRIVAL coverage matched = preview matched — 539,738 vs 539,738
+[PASS] 01|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 539,738 vs 539,738
+[PASS] 01|SCHEDULED_DEPARTURE coverage rows = journal expected — 539,747 vs 539,747
+[PASS] 01|SCHEDULED_DEPARTURE coverage matched = preview matched — 539,744 vs 539,744
+[PASS] 01|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 539,744 vs 539,744
+[PASS] 02|ACTUAL_ARRIVAL coverage rows = journal expected — 504,884 vs 504,884
+[PASS] 02|ACTUAL_ARRIVAL coverage matched = preview matched — 496,467 vs 496,467
+[PASS] 02|ACTUAL_ARRIVAL impact matched rows = coverage matched — 496,467 vs 496,467
+[PASS] 02|ACTUAL_DEPARTURE coverage rows = journal expected — 504,884 vs 504,884
+[PASS] 02|ACTUAL_DEPARTURE coverage matched = preview matched — 497,745 vs 497,745
+[PASS] 02|ACTUAL_DEPARTURE impact matched rows = coverage matched — 497,745 vs 497,745
+[PASS] 02|SCHEDULED_ARRIVAL coverage rows = journal expected — 504,884 vs 504,884
+[PASS] 02|SCHEDULED_ARRIVAL coverage matched = preview matched — 504,871 vs 504,871
+[PASS] 02|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 504,871 vs 504,871
+[PASS] 02|SCHEDULED_DEPARTURE coverage rows = journal expected — 504,884 vs 504,884
+[PASS] 02|SCHEDULED_DEPARTURE coverage matched = preview matched — 504,884 vs 504,884
+[PASS] 02|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 504,884 vs 504,884
+[PASS] 03|ACTUAL_ARRIVAL coverage rows = journal expected — 600,872 vs 600,872
+[PASS] 03|ACTUAL_ARRIVAL coverage matched = preview matched — 592,215 vs 592,215
+[PASS] 03|ACTUAL_ARRIVAL impact matched rows = coverage matched — 592,215 vs 592,215
+[PASS] 03|ACTUAL_DEPARTURE coverage rows = journal expected — 600,872 vs 600,872
+[PASS] 03|ACTUAL_DEPARTURE coverage matched = preview matched — 594,246 vs 594,246
+[PASS] 03|ACTUAL_DEPARTURE impact matched rows = coverage matched — 594,246 vs 594,246
+[PASS] 03|SCHEDULED_ARRIVAL coverage rows = journal expected — 600,872 vs 600,872
+[PASS] 03|SCHEDULED_ARRIVAL coverage matched = preview matched — 600,827 vs 600,827
+[PASS] 03|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 600,827 vs 600,827
+[PASS] 03|SCHEDULED_DEPARTURE coverage rows = journal expected — 600,872 vs 600,872
+[PASS] 03|SCHEDULED_DEPARTURE coverage matched = preview matched — 600,872 vs 600,872
+[PASS] 03|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 600,872 vs 600,872
+[PASS] 04|ACTUAL_ARRIVAL coverage rows = journal expected — 583,950 vs 583,950
+[PASS] 04|ACTUAL_ARRIVAL coverage matched = preview matched — 577,714 vs 577,714
+[PASS] 04|ACTUAL_ARRIVAL impact matched rows = coverage matched — 577,714 vs 577,714
+[PASS] 04|ACTUAL_DEPARTURE coverage rows = journal expected — 583,950 vs 583,950
+[PASS] 04|ACTUAL_DEPARTURE coverage matched = preview matched — 579,283 vs 579,283
+[PASS] 04|ACTUAL_DEPARTURE impact matched rows = coverage matched — 579,283 vs 579,283
+[PASS] 04|SCHEDULED_ARRIVAL coverage rows = journal expected — 583,950 vs 583,950
+[PASS] 04|SCHEDULED_ARRIVAL coverage matched = preview matched — 583,932 vs 583,932
+[PASS] 04|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 583,932 vs 583,932
+[PASS] 04|SCHEDULED_DEPARTURE coverage rows = journal expected — 583,950 vs 583,950
+[PASS] 04|SCHEDULED_DEPARTURE coverage matched = preview matched — 583,950 vs 583,950
+[PASS] 04|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 583,950 vs 583,950
+[PASS] 05|ACTUAL_ARRIVAL coverage rows = journal expected — 605,648 vs 605,648
+[PASS] 05|ACTUAL_ARRIVAL coverage matched = preview matched — 597,564 vs 597,564
+[PASS] 05|ACTUAL_ARRIVAL impact matched rows = coverage matched — 597,564 vs 597,564
+[PASS] 05|ACTUAL_DEPARTURE coverage rows = journal expected — 605,648 vs 605,648
+[PASS] 05|ACTUAL_DEPARTURE coverage matched = preview matched — 599,661 vs 599,661
+[PASS] 05|ACTUAL_DEPARTURE impact matched rows = coverage matched — 599,661 vs 599,661
+[PASS] 05|SCHEDULED_ARRIVAL coverage rows = journal expected — 605,648 vs 605,648
+[PASS] 05|SCHEDULED_ARRIVAL coverage matched = preview matched — 605,640 vs 605,640
+[PASS] 05|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 605,640 vs 605,640
+[PASS] 05|SCHEDULED_DEPARTURE coverage rows = journal expected — 605,648 vs 605,648
+[PASS] 05|SCHEDULED_DEPARTURE coverage matched = preview matched — 605,648 vs 605,648
+[PASS] 05|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 605,648 vs 605,648
+[PASS] 06|ACTUAL_ARRIVAL coverage rows = journal expected — 611,575 vs 611,575
+[PASS] 06|ACTUAL_ARRIVAL coverage matched = preview matched — 599,448 vs 599,448
+[PASS] 06|ACTUAL_ARRIVAL impact matched rows = coverage matched — 599,448 vs 599,448
+[PASS] 06|ACTUAL_DEPARTURE coverage rows = journal expected — 611,575 vs 611,575
+[PASS] 06|ACTUAL_DEPARTURE coverage matched = preview matched — 602,373 vs 602,373
+[PASS] 06|ACTUAL_DEPARTURE impact matched rows = coverage matched — 602,373 vs 602,373
+[PASS] 06|SCHEDULED_ARRIVAL coverage rows = journal expected — 611,575 vs 611,575
+[PASS] 06|SCHEDULED_ARRIVAL coverage matched = preview matched — 611,550 vs 611,550
+[PASS] 06|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 611,550 vs 611,550
+[PASS] 06|SCHEDULED_DEPARTURE coverage rows = journal expected — 611,575 vs 611,575
+[PASS] 06|SCHEDULED_DEPARTURE coverage matched = preview matched — 611,575 vs 611,575
+[PASS] 06|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 611,575 vs 611,575
+[PASS] 07|ACTUAL_ARRIVAL coverage rows = journal expected — 631,428 vs 631,428
+[PASS] 07|ACTUAL_ARRIVAL coverage matched = preview matched — 612,795 vs 612,795
+[PASS] 07|ACTUAL_ARRIVAL impact matched rows = coverage matched — 612,795 vs 612,795
+[PASS] 07|ACTUAL_DEPARTURE coverage rows = journal expected — 631,428 vs 631,428
+[PASS] 07|ACTUAL_DEPARTURE coverage matched = preview matched — 616,879 vs 616,879
+[PASS] 07|ACTUAL_DEPARTURE impact matched rows = coverage matched — 616,879 vs 616,879
+[PASS] 07|SCHEDULED_ARRIVAL coverage rows = journal expected — 631,428 vs 631,428
+[PASS] 07|SCHEDULED_ARRIVAL coverage matched = preview matched — 631,410 vs 631,410
+[PASS] 07|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 631,410 vs 631,410
+[PASS] 07|SCHEDULED_DEPARTURE coverage rows = journal expected — 631,428 vs 631,428
+[PASS] 07|SCHEDULED_DEPARTURE coverage matched = preview matched — 631,428 vs 631,428
+[PASS] 07|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 631,428 vs 631,428
+[PASS] 08|ACTUAL_ARRIVAL coverage rows = journal expected — 602,378 vs 602,378
+[PASS] 08|ACTUAL_ARRIVAL coverage matched = preview matched — 593,727 vs 593,727
+[PASS] 08|ACTUAL_ARRIVAL impact matched rows = coverage matched — 593,727 vs 593,727
+[PASS] 08|ACTUAL_DEPARTURE coverage rows = journal expected — 602,378 vs 602,378
+[PASS] 08|ACTUAL_DEPARTURE coverage matched = preview matched — 596,229 vs 596,229
+[PASS] 08|ACTUAL_DEPARTURE impact matched rows = coverage matched — 596,229 vs 596,229
+[PASS] 08|SCHEDULED_ARRIVAL coverage rows = journal expected — 602,378 vs 602,378
+[PASS] 08|SCHEDULED_ARRIVAL coverage matched = preview matched — 602,371 vs 602,371
+[PASS] 08|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 602,371 vs 602,371
+[PASS] 08|SCHEDULED_DEPARTURE coverage rows = journal expected — 602,378 vs 602,378
+[PASS] 08|SCHEDULED_DEPARTURE coverage matched = preview matched — 602,378 vs 602,378
+[PASS] 08|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 602,378 vs 602,378
+[PASS] 09|ACTUAL_ARRIVAL coverage rows = journal expected — 562,439 vs 562,439
+[PASS] 09|ACTUAL_ARRIVAL coverage matched = preview matched — 558,318 vs 558,318
+[PASS] 09|ACTUAL_ARRIVAL impact matched rows = coverage matched — 558,318 vs 558,318
+[PASS] 09|ACTUAL_DEPARTURE coverage rows = journal expected — 562,439 vs 562,439
+[PASS] 09|ACTUAL_DEPARTURE coverage matched = preview matched — 559,718 vs 559,718
+[PASS] 09|ACTUAL_DEPARTURE impact matched rows = coverage matched — 559,718 vs 559,718
+[PASS] 09|SCHEDULED_ARRIVAL coverage rows = journal expected — 562,439 vs 562,439
+[PASS] 09|SCHEDULED_ARRIVAL coverage matched = preview matched — 562,426 vs 562,426
+[PASS] 09|SCHEDULED_ARRIVAL impact matched rows = coverage matched — 562,426 vs 562,426
+[PASS] 09|SCHEDULED_DEPARTURE coverage rows = journal expected — 562,439 vs 562,439
+[PASS] 09|SCHEDULED_DEPARTURE coverage matched = preview matched — 562,439 vs 562,439
+[PASS] 09|SCHEDULED_DEPARTURE impact matched rows = coverage matched — 562,439 vs 562,439
+[PASS] Gold reconciliation 01|SCHEDULED_DEPARTURE — Gold eligible 523,435 - export 523,432 = 3; delayed gap 0; non-matched rows 3
+[PASS] Gold reconciliation 01|ACTUAL_DEPARTURE — Gold eligible 523,435 - export 523,432 = 3; delayed gap 0; non-matched rows 15,926
+[PASS] Gold reconciliation 01|SCHEDULED_ARRIVAL — Gold eligible 522,269 - export 522,263 = 6; delayed gap 3; non-matched rows 9
+[PASS] Gold reconciliation 01|ACTUAL_ARRIVAL — Gold eligible 522,269 - export 522,259 = 10; delayed gap 6; non-matched rows 17,488
+[PASS] Gold reconciliation 02|SCHEDULED_DEPARTURE — Gold eligible 497,479 - export 497,479 = 0; delayed gap 0; non-matched rows 0
+[PASS] Gold reconciliation 02|ACTUAL_DEPARTURE — Gold eligible 497,479 - export 497,479 = 0; delayed gap 0; non-matched rows 7,139
+[PASS] Gold reconciliation 02|SCHEDULED_ARRIVAL — Gold eligible 496,476 - export 496,467 = 9; delayed gap 5; non-matched rows 13
+[PASS] Gold reconciliation 02|ACTUAL_ARRIVAL — Gold eligible 496,476 - export 496,467 = 9; delayed gap 5; non-matched rows 8,417
+[PASS] Gold reconciliation 03|SCHEDULED_DEPARTURE — Gold eligible 593,949 - export 593,949 = 0; delayed gap 0; non-matched rows 0
+[PASS] Gold reconciliation 03|ACTUAL_DEPARTURE — Gold eligible 593,949 - export 593,933 = 16; delayed gap 16; non-matched rows 6,626
+[PASS] Gold reconciliation 03|SCHEDULED_ARRIVAL — Gold eligible 592,301 - export 592,258 = 43; delayed gap 10; non-matched rows 45
+[PASS] Gold reconciliation 03|ACTUAL_ARRIVAL — Gold eligible 592,301 - export 592,215 = 86; delayed gap 51; non-matched rows 8,657
+[PASS] Gold reconciliation 04|SCHEDULED_DEPARTURE — Gold eligible 579,036 - export 579,036 = 0; delayed gap 0; non-matched rows 0
+[PASS] Gold reconciliation 04|ACTUAL_DEPARTURE — Gold eligible 579,036 - export 579,036 = 0; delayed gap 0; non-matched rows 4,667
+[PASS] Gold reconciliation 04|SCHEDULED_ARRIVAL — Gold eligible 577,730 - export 577,714 = 16; delayed gap 9; non-matched rows 18
+[PASS] Gold reconciliation 04|ACTUAL_ARRIVAL — Gold eligible 577,730 - export 577,714 = 16; delayed gap 9; non-matched rows 6,236
+[PASS] Gold reconciliation 05|SCHEDULED_DEPARTURE — Gold eligible 599,304 - export 599,304 = 0; delayed gap 0; non-matched rows 0
+[PASS] Gold reconciliation 05|ACTUAL_DEPARTURE — Gold eligible 599,304 - export 599,304 = 0; delayed gap 0; non-matched rows 5,987
+[PASS] Gold reconciliation 05|SCHEDULED_ARRIVAL — Gold eligible 597,574 - export 597,569 = 5; delayed gap 5; non-matched rows 8
+[PASS] Gold reconciliation 05|ACTUAL_ARRIVAL — Gold eligible 597,574 - export 597,564 = 10; delayed gap 10; non-matched rows 8,084
+[PASS] Gold reconciliation 06|SCHEDULED_DEPARTURE — Gold eligible 601,839 - export 601,839 = 0; delayed gap 0; non-matched rows 0
+[PASS] Gold reconciliation 06|ACTUAL_DEPARTURE — Gold eligible 601,839 - export 601,839 = 0; delayed gap 0; non-matched rows 9,202
+[PASS] Gold reconciliation 06|SCHEDULED_ARRIVAL — Gold eligible 599,472 - export 599,457 = 15; delayed gap 12; non-matched rows 25
+[PASS] Gold reconciliation 06|ACTUAL_ARRIVAL — Gold eligible 599,472 - export 599,448 = 24; delayed gap 21; non-matched rows 12,127
+[PASS] Gold reconciliation 07|SCHEDULED_DEPARTURE — Gold eligible 615,955 - export 615,955 = 0; delayed gap 0; non-matched rows 0
+[PASS] Gold reconciliation 07|ACTUAL_DEPARTURE — Gold eligible 615,955 - export 615,955 = 0; delayed gap 0; non-matched rows 14,549
+[PASS] Gold reconciliation 07|SCHEDULED_ARRIVAL — Gold eligible 612,811 - export 612,799 = 12; delayed gap 8; non-matched rows 18
+[PASS] Gold reconciliation 07|ACTUAL_ARRIVAL — Gold eligible 612,811 - export 612,795 = 16; delayed gap 12; non-matched rows 18,633
+[PASS] Gold reconciliation 08|SCHEDULED_DEPARTURE — Gold eligible 595,895 - export 595,895 = 0; delayed gap 0; non-matched rows 0
+[PASS] Gold reconciliation 08|ACTUAL_DEPARTURE — Gold eligible 595,895 - export 595,893 = 2; delayed gap 1; non-matched rows 6,149
+[PASS] Gold reconciliation 08|SCHEDULED_ARRIVAL — Gold eligible 593,733 - export 593,727 = 6; delayed gap 6; non-matched rows 7
+[PASS] Gold reconciliation 08|ACTUAL_ARRIVAL — Gold eligible 593,733 - export 593,727 = 6; delayed gap 6; non-matched rows 8,651
+[PASS] Gold reconciliation 09|SCHEDULED_DEPARTURE — Gold eligible 559,553 - export 559,553 = 0; delayed gap 0; non-matched rows 0
+[PASS] Gold reconciliation 09|ACTUAL_DEPARTURE — Gold eligible 559,553 - export 559,553 = 0; delayed gap 0; non-matched rows 2,721
+[PASS] Gold reconciliation 09|SCHEDULED_ARRIVAL — Gold eligible 558,328 - export 558,318 = 10; delayed gap 8; non-matched rows 13
+[PASS] Gold reconciliation 09|ACTUAL_ARRIVAL — Gold eligible 558,328 - export 558,318 = 10; delayed gap 8; non-matched rows 4,121

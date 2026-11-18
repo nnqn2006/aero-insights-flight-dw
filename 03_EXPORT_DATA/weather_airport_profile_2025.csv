@@ -1,0 +1,353 @@
+﻿AirportKey,OurAirportsID,AirportCode,AirportName,Municipality,ISOCountry,AirportType,WeatherObservations,AvgTemperature,MinTemperature,MaxTemperature,AvgRelativeHumidity,TotalPrecipitation,WetAirportHours,WetAirportHourRate,AvgWindSpeed,MaxWindGust,AvgCloudCover
+53004,26343,YAK,Yakutat Airport,Yakutat,US,medium_airport,8760,5.09,-18.30,22.30,84.77,3875.30,4188,47.81,12.05,104.40,80.91
+52903,5382,KTN,Ketchikan International Airport,Ketchikan,US,medium_airport,8760,7.68,-10.10,25.00,82.84,3819.00,3845,43.89,15.22,128.50,77.22
+52892,5379,JNU,Juneau International Airport,Juneau,US,medium_airport,8760,5.87,-21.60,26.10,79.92,3662.30,4358,49.75,8.52,114.80,80.01
+52964,5408,SIT,Sitka Rocky Gutierrez Airport,Sitka,US,medium_airport,8760,6.62,-15.10,23.40,86.17,3528.80,4357,49.74,11.01,121.70,84.57
+51126,4978,PPG,Pago Pago International Airport,Pago Pago,AS,large_airport,8760,26.80,23.30,29.80,80.03,3525.70,4377,49.97,20.66,80.60,71.13
+52831,5348,CDV,Merle K (Mudhole) Smith Airport,Cordova,US,medium_airport,8760,4.60,-21.00,24.10,79.79,3489.80,3956,45.16,10.06,110.20,77.87
+52948,5398,PSG,Petersburg James A Johnson Airport,Petersburg,US,medium_airport,8760,6.11,-17.80,25.80,85.72,3474.90,3882,44.32,8.31,95.40,83.89
+52996,5421,WRG,Wrangell Airport,Wrangell,US,medium_airport,8760,6.12,-22.90,25.70,80.64,3360.80,3924,44.79,7.99,104.80,79.30
+52869,5369,GST,Gustavus Airport,Gustavus,US,medium_airport,8760,4.98,-23.70,22.30,81.98,2645.40,3853,43.98,9.35,92.90,80.78
+53259,5433,GUM,Antonio B. Won Pat International Airport,Hagåtña,GU,large_airport,8760,28.07,22.90,33.50,74.01,2097.50,3389,38.69,16.97,71.30,74.39
+52840,5353,ADQ,Kodiak Airport,Kodiak,US,medium_airport,8760,6.00,-12.50,21.60,83.91,2093.40,3201,36.54,14.82,136.80,78.47
+52837,16092,ADK,Adak Airport,Adak,US,medium_airport,8760,5.39,-6.60,18.00,87.69,1841.40,3659,41.77,19.01,154.10,87.48
+43108,3948,VPS,Destin-Fort Walton Beach Airport,Valparaiso,US,medium_airport,8760,20.24,-9.10,36.00,75.03,1745.10,1488,16.99,10.31,82.10,47.33
+53257,5431,SPN,Saipan International Airport,"I Fadang, Saipan",MP,medium_airport,8760,27.97,23.60,32.30,74.41,1676.70,3382,38.61,17.82,86.40,66.54
+40299,3588,HOU,William P. Hobby Airport,Houston,US,large_airport,8760,21.58,-9.10,36.50,77.08,1650.00,1508,17.21,9.76,73.80,48.43
+38804,3362,ACV,California Redwood Coast-Humboldt County Airport,Arcata/Eureka,US,medium_airport,8760,11.35,-1.10,24.50,85.53,1627.90,1407,16.06,8.94,90.00,63.74
+41168,3759,OTH,Southwest Oregon Regional Airport,North Bend,US,medium_airport,8760,11.74,-1.50,25.70,83.05,1605.70,1929,22.02,13.00,98.60,64.11
+39046,3423,BPT,Jack Brooks Regional Airport,Beaumont/Port Arthur,US,medium_airport,8760,21.40,-6.80,35.50,76.61,1564.60,1363,15.56,10.60,75.60,46.90
+41311,3768,PDX,Portland International Airport,Portland,US,large_airport,8760,12.51,-4.80,37.70,74.62,1521.10,1817,20.74,8.16,79.60,62.88
+41364,3783,PNS,Pensacola International Airport,Pensacola,US,large_airport,8760,20.40,-9.60,37.40,75.18,1520.30,1429,16.31,10.36,84.20,47.32
+40592,3637,LCH,Lake Charles Regional Airport,Lake Charles,US,medium_airport,8760,20.98,-9.40,36.60,76.72,1518.50,1304,14.89,11.20,77.80,45.79
+39034,3420,BNA,Nashville International Airport,Nashville,US,large_airport,8760,16.34,-13.10,38.00,69.80,1515.90,1501,17.13,10.48,96.80,52.38
+39333,3479,DAL,Dallas Love Field,Dallas,US,large_airport,8760,20.07,-10.80,41.50,64.68,1460.30,928,10.59,10.05,86.80,40.55
+40829,3685,MIA,Miami International Airport,Miami,US,large_airport,8760,24.57,7.70,35.30,75.97,1457.50,1731,19.76,8.00,64.10,49.38
+40803,3675,MEM,Frederick W. Smith International Airport,Memphis,US,large_airport,8760,17.40,-11.80,36.80,70.60,1443.60,1263,14.42,10.38,83.50,49.52
+40584,3634,LBE,Arnold Palmer Regional Airport,Latrobe,US,medium_airport,8760,10.58,-25.60,32.10,73.12,1442.20,2036,23.24,12.43,87.80,64.46
+40161,3561,GPT,Gulfport Biloxi International Airport,Gulfport,US,medium_airport,8760,20.50,-9.00,35.10,77.29,1438.40,1416,16.16,12.01,94.00,46.04
+54015,5449,LIH,Lihue Airport,"Lihue, Kauai",US,large_airport,8760,23.87,13.60,30.50,76.13,1434.20,4001,45.67,13.64,94.00,55.36
+39788,46530,ECP,Northwest Florida Beaches International Airport,Panama City Beach,US,medium_airport,8760,20.12,-7.00,37.10,75.63,1431.70,1356,15.48,9.31,81.40,47.61
+39080,3435,BWI,Baltimore/Washington International Thurgood Marshall Airport,Baltimore,US,large_airport,8760,13.58,-13.60,39.70,68.09,1419.80,1329,15.17,10.17,96.80,57.03
+42742,3873,SDF,Louisville Muhammad Ali International Airport,Louisville,US,large_airport,8760,14.10,-16.30,36.30,70.94,1401.60,1376,15.71,9.29,88.60,56.14
+40603,3640,LEX,Blue Grass Airport,Lexington,US,medium_airport,8760,13.30,-20.60,36.50,73.17,1393.30,1537,17.55,12.55,86.00,57.28
+42986,3930,TUL,Tulsa International Airport,Tulsa,US,large_airport,8760,16.42,-17.90,37.10,69.57,1392.50,1017,11.61,11.76,100.80,46.42
+40915,3711,MSY,Louis Armstrong New Orleans International Airport,New Orleans,US,large_airport,8760,21.12,-6.70,33.80,78.06,1388.90,1445,16.50,9.99,81.00,46.33
+43004,3938,TYS,McGhee Tyson Airport,Knoxville/Maryville,US,large_airport,8760,15.51,-11.50,35.00,71.49,1376.20,1367,15.61,9.70,76.70,53.40
+40461,3619,JAN,Jackson-Medgar Wiley Evers International Airport,Jackson,US,medium_airport,8760,19.19,-10.40,36.30,71.92,1369.10,1196,13.65,9.72,94.30,47.74
+39024,3416,BLI,Bellingham International Airport,Bellingham,US,medium_airport,8760,10.20,-12.30,31.60,78.90,1363.70,1833,20.92,10.33,84.20,64.46
+39975,3531,FLL,Fort Lauderdale Hollywood International Airport,Fort Lauderdale,US,large_airport,8760,24.63,7.30,35.00,75.05,1359.30,1897,21.66,9.95,68.80,49.55
+41302,3766,DJT,President Donald J. Trump International Airport,West Palm Beach,US,large_airport,8760,24.64,5.50,36.50,73.11,1359.10,1826,20.84,11.08,79.20,50.32
+38819,3365,AEX,Alexandria International Airport,Alexandria,US,medium_airport,8760,20.27,-9.10,36.90,72.38,1355.60,994,11.35,9.52,81.40,45.01
+40477,20214,GUF,Jack Edwards National Airport,Gulf Shores,US,small_airport,8760,20.94,-8.30,34.90,75.20,1350.10,1442,16.46,12.51,85.70,45.76
+40421,3609,ILM,Wilmington International Airport,Wilmington,US,medium_airport,8760,17.73,-10.30,36.40,72.81,1349.70,1305,14.90,10.94,85.00,52.82
+40852,3693,MLB,Melbourne Orlando International Airport,Melbourne,US,medium_airport,8760,23.06,3.90,35.60,76.14,1347.10,1565,17.87,10.98,73.80,49.81
+40787,3670,MCO,Orlando International Airport,Orlando,US,large_airport,8760,22.26,2.80,36.60,75.98,1346.70,1378,15.73,8.57,68.00,49.96
+42756,3876,SFB,Orlando Sanford International Airport,Orlando,US,large_airport,8760,22.12,2.90,36.30,77.16,1341.50,1377,15.72,8.62,68.00,50.93
+40606,3642,LFT,Lafayette Regional Airport,Lafayette,US,medium_airport,8760,20.96,-12.50,37.30,75.18,1337.00,1248,14.25,10.86,88.20,45.39
+40394,3604,IAH,George Bush Intercontinental Airport,Houston,US,large_airport,8760,21.63,-7.80,37.90,74.22,1328.00,1377,15.72,9.40,72.00,48.09
+40180,19982,GTR,Golden Triangle Regional Airport,Columbus/W Point/Starkville,US,medium_airport,8760,18.19,-11.40,35.90,73.05,1319.30,1114,12.72,9.84,95.80,47.64
+40820,3682,MGW,Morgantown Municipal Airport Walter L. (Bill) Hart Field,Morgantown,US,medium_airport,8760,11.03,-25.40,32.70,72.87,1286.20,1946,22.21,11.71,85.00,63.77
+39353,3488,DFW,Dallas Fort Worth International Airport,Dallas-Fort Worth,US,large_airport,8760,20.12,-9.90,40.70,64.12,1285.20,854,9.75,10.12,86.40,39.83
+40881,3700,MOB,Mobile Regional Airport,Mobile,US,medium_airport,8760,19.79,-11.30,35.10,76.32,1283.10,1304,14.89,9.68,78.80,47.99
+39210,3458,CMH,John Glenn Columbus International Airport,Columbus,US,large_airport,8760,11.57,-22.10,33.80,72.22,1281.70,1498,17.10,11.14,89.60,59.73
+41156,3755,ORF,Norfolk International Airport,Norfolk,US,large_airport,8760,16.01,-7.00,38.00,70.85,1279.40,1304,14.89,12.80,103.00,54.30
+40323,3594,HSV,Huntsville International Airport,Huntsville,US,medium_airport,8760,16.70,-12.10,34.60,73.07,1271.70,1246,14.22,10.16,94.70,49.62
+40950,3717,MYR,Myrtle Beach International Airport,Myrtle Beach,US,large_airport,8760,18.19,-9.00,36.90,73.27,1268.80,1274,14.54,11.86,87.80,50.61
+65676,6379,BQN,Rafael Hernández International Airport,Aguadilla,PR,medium_airport,8760,25.68,18.90,32.50,79.14,1268.50,1976,22.56,13.17,77.40,46.21
+40009,3543,FSM,Fort Smith Regional Airport,Fort Smith,US,medium_airport,8760,17.18,-14.40,36.30,70.32,1267.60,1006,11.48,9.12,92.90,46.61
+54014,5448,KOA,Ellison Onizuka Kona International Airport at Keāhole,Kailua-Kona,US,large_airport,8760,23.86,17.60,29.90,84.07,1262.40,2536,28.95,5.68,79.20,63.37
+38971,3396,BDL,Bradley International Airport,Hartford,US,large_airport,8760,10.40,-19.60,35.50,69.23,1259.00,1326,15.14,10.62,82.10,60.00
+38915,3384,ATL,Hartsfield Jackson Atlanta International Airport,Atlanta,US,large_airport,8760,17.11,-11.50,37.70,69.85,1258.70,1298,14.82,10.26,81.00,49.23
+39852,3515,ERI,Erie International Tom Ridge Field,Erie,US,medium_airport,8760,10.05,-20.20,32.80,74.06,1256.30,2104,24.02,17.26,95.80,62.77
+38999,3406,BHM,Birmingham-Shuttlesworth International Airport,Birmingham,US,large_airport,8760,17.79,-11.10,36.80,70.25,1254.10,1193,13.62,9.87,99.40,48.55
+40861,3697,MLU,Monroe Regional Airport,Monroe,US,medium_airport,8760,19.55,-8.60,37.50,72.73,1251.60,1001,11.43,9.60,92.50,44.86
+42722,3864,SAV,Savannah Hilton Head International Airport,Savannah,US,large_airport,8760,19.17,-6.00,37.20,73.87,1246.70,1226,14.00,9.73,69.50,48.79
+39189,3453,CKB,North Central West Virginia Airport,Bridgeport,US,medium_airport,8760,11.70,-27.80,32.70,72.46,1246.30,1758,20.07,11.05,80.60,62.79
+40594,3638,LCK,Rickenbacker International Airport,Columbus,US,medium_airport,8760,11.72,-21.80,33.70,72.77,1245.50,1420,16.21,10.79,95.00,59.42
+40344,20105,HHH,Hilton Head Airport,Hilton Head Island,US,medium_airport,8760,19.44,-3.60,37.10,75.17,1243.30,1398,15.96,12.58,86.00,49.43
+42870,3913,SYR,Syracuse Hancock International Airport,Syracuse,US,large_airport,8760,9.34,-20.60,34.20,73.52,1241.20,2210,25.23,11.50,78.10,67.58
+54026,5457,ITO,Hilo International Airport,Hilo,US,medium_airport,8760,22.89,15.70,30.30,78.03,1240.80,3025,34.53,8.33,69.50,60.70
+41323,3770,PHF,Newport News Williamsburg International Airport,Newport News,US,medium_airport,8760,15.64,-10.30,37.20,69.74,1236.20,1255,14.33,12.55,99.70,54.53
+39330,3478,DAB,Daytona Beach International Airport,Daytona Beach,US,medium_airport,8760,21.79,1.70,35.90,76.53,1234.80,1496,17.08,10.05,78.80,51.57
+40300,3589,HPN,Westchester County Airport,White Plains,US,medium_airport,8760,10.94,-17.30,36.00,69.72,1234.60,1299,14.83,12.08,81.40,58.01
+38855,3371,ALB,Albany International Airport,Albany,US,large_airport,8760,9.75,-22.00,35.50,71.48,1233.10,1383,15.79,10.85,80.60,62.62
+39339,3483,DCA,Ronald Reagan Washington National Airport,Washington,US,large_airport,8760,13.88,-14.40,40.20,67.67,1219.50,1264,14.43,10.11,83.20,56.28
+39178,3450,CHS,Charleston International Airport,Charleston,US,large_airport,8760,18.80,-6.90,37.20,73.73,1215.30,1275,14.55,10.43,81.00,49.77
+42746,3875,SEA,Seattle–Tacoma International Airport,Seattle,US,large_airport,8760,11.56,-5.40,34.10,75.21,1202.70,1726,19.70,9.63,87.50,64.42
+40621,3645,LIT,Bill & Hillary Clinton National Airport/Adams Field,Little Rock,US,medium_airport,8760,18.07,-12.60,39.30,68.36,1197.90,995,11.36,10.13,86.40,46.28
+41088,20709,OAJ,Albert J Ellis Airport,Richlands,US,medium_airport,8760,16.98,-10.80,35.60,72.39,1193.40,1232,14.06,11.53,91.40,53.56
+38805,3363,ACY,Atlantic City International Airport,Atlantic City,US,medium_airport,8760,12.98,-11.80,37.70,69.72,1190.20,1262,14.41,12.01,82.10,57.57
+40480,3623,JLN,Joplin Regional Airport,Joplin,US,medium_airport,8760,15.14,-21.90,36.00,68.89,1184.50,1055,12.04,12.71,90.40,48.81
+39062,3429,BTR,Baton Rouge Metropolitan Airport,Baton Rouge,US,medium_airport,8760,20.77,-12.00,35.90,73.56,1183.50,1111,12.68,9.28,75.60,45.16
+41339,3778,PIT,Pittsburgh International Airport,Pittsburgh,US,large_airport,8760,11.07,-25.40,34.00,70.99,1182.90,1648,18.81,11.70,79.60,62.68
+42774,3882,SHV,Shreveport Regional Airport,Shreveport,US,medium_airport,8760,19.77,-7.40,37.50,70.78,1179.40,977,11.15,9.33,71.30,44.78
+40472,3622,JFK,John F. Kennedy International Airport,New York,US,large_airport,8760,12.44,-13.80,38.10,66.84,1178.90,1228,14.02,12.09,112.70,57.30
+42599,3847,RIC,Richmond International Airport,Richmond,US,large_airport,8760,14.80,-10.20,36.60,69.50,1178.50,1136,12.97,10.65,85.00,53.81
+39274,3471,CVG,Cincinnati Northern Kentucky International Airport,Cincinnati / Covington,US,large_airport,8760,12.59,-19.90,33.60,72.61,1177.70,1425,16.27,10.96,109.80,58.56
+41333,3774,PIB,Hattiesburg Laurel Regional Airport,Moselle,US,medium_airport,8760,19.44,-11.40,36.30,73.46,1176.90,1140,13.01,8.99,89.30,47.37
+39876,3520,EWN,Coastal Carolina Regional Airport,New Bern,US,medium_airport,8760,17.01,-9.60,35.60,72.97,1171.00,1268,14.47,11.17,94.70,53.83
+52838,5351,DLG,Dillingham Airport,Dillingham,US,medium_airport,8760,2.80,-24.30,24.20,78.76,1161.60,2289,26.13,13.22,80.60,74.55
+42763,3879,SGF,Springfield Branson National Airport,Springfield,US,medium_airport,8760,14.58,-21.20,35.60,68.93,1159.50,1127,12.87,12.57,102.60,50.94
+42974,3928,TRI,Tri-Cities Regional TN/VA Airport,Blountville,US,medium_airport,8760,13.90,-13.80,33.50,71.58,1157.50,1530,17.47,8.94,77.80,56.04
+42862,3912,SWO,Stillwater Regional Airport,Stillwater,US,medium_airport,8760,16.32,-16.90,36.90,65.43,1155.20,870,9.93,14.37,104.00,44.92
+39256,3467,CRW,Yeager Airport,Charleston,US,medium_airport,8760,13.39,-22.20,35.90,70.12,1152.50,1515,17.29,10.37,83.50,60.19
+40445,3616,ISP,Long Island MacArthur Airport,Islip,US,medium_airport,8760,11.87,-13.70,38.00,70.67,1149.10,1179,13.46,11.52,118.80,57.06
+40801,3674,MEI,Key Field / Meridian Regional Airport,Meridian,US,medium_airport,8760,18.70,-10.90,36.00,72.40,1143.90,1114,12.72,9.32,99.00,47.91
+39871,3518,EVV,Evansville Regional Airport,Evansville,US,medium_airport,8760,13.81,-17.10,33.50,73.16,1143.20,1219,13.92,11.08,89.60,53.13
+39172,3448,CHA,Chattanooga Metropolitan Airport (Lovell Field),Chattanooga,US,medium_airport,8760,16.72,-10.10,37.50,70.48,1141.40,1226,14.00,8.27,87.10,50.90
+42648,3858,RSW,Southwest Florida International Airport,Fort Myers,US,large_airport,8760,23.32,3.70,35.20,76.32,1140.90,1237,14.12,8.10,62.30,45.95
+39063,3430,BTV,Patrick Leahy Burlington International Airport,Burlington,US,medium_airport,8760,8.31,-21.00,35.60,71.40,1138.50,1778,20.30,14.30,80.30,65.66
+40464,3620,JAX,Jacksonville International Airport,Jacksonville,US,large_airport,8760,20.51,-2.10,38.00,75.25,1136.40,1301,14.85,9.46,68.80,48.31
+43003,3937,TYR,Tyler Pounds Regional Airport,Tyler,US,medium_airport,8760,19.47,-9.80,36.90,69.97,1132.70,1009,11.52,11.56,78.10,42.77
+39199,3454,CLE,Cleveland Hopkins International Airport,Cleveland,US,large_airport,8760,10.96,-21.50,35.00,72.62,1132.00,1733,19.78,14.56,92.50,61.43
+41158,3756,ORH,Worcester Regional Airport,Worcester,US,medium_airport,8760,9.43,-17.90,34.90,70.37,1131.50,1359,15.51,13.32,101.50,58.34
+40488,3625,JST,John Murtha Johnstown Cambria County Airport,Johnstown,US,medium_airport,8760,8.45,-27.40,29.60,74.68,1130.30,2083,23.78,11.88,96.10,65.64
+40346,3600,HYA,Cape Cod Gateway Airport,Hyannis,US,medium_airport,8760,11.10,-9.80,36.20,71.87,1116.00,1146,13.08,16.38,114.10,59.29
+38924,3386,AUS,Austin Bergstrom International Airport,Austin,US,large_airport,8760,21.60,-7.10,37.90,64.82,1115.20,1101,12.57,11.56,78.10,45.16
+43000,3936,TXK,Texarkana Regional Airport (Webb Field),Texarkana,US,medium_airport,8760,19.29,-9.10,39.90,67.37,1111.00,922,10.53,10.77,84.60,44.30
+39027,3417,BLV,Scott AFB/Midamerica Airport,Belleville,US,medium_airport,8760,13.62,-17.90,35.50,71.53,1106.70,1147,13.09,11.63,87.80,53.62
+40934,20578,MVY,Martha's Vineyard Airport,Martha's Vineyard,US,small_airport,8760,11.28,-10.00,35.30,72.89,1104.70,1107,12.64,18.77,106.20,58.65
+39877,3521,EWR,Newark Liberty International Airport,Newark,US,large_airport,8760,12.59,-16.40,39.20,65.59,1101.50,1241,14.17,10.69,80.30,57.48
+39866,3517,EUG,Eugene Airport,Eugene,US,medium_airport,8760,12.25,-5.80,37.00,76.74,1097.20,1428,16.30,9.24,90.70,59.37
+40784,3668,MCI,Kansas City International Airport,Kansas City,US,large_airport,8760,13.18,-23.60,34.30,69.17,1090.10,1023,11.68,13.10,87.50,50.85
+39356,3489,DHN,Dothan Regional Airport,Dothan,US,medium_airport,8760,19.66,-10.10,37.70,69.41,1084.80,1093,12.48,9.88,86.40,47.55
+40327,3595,HTS,Tri-State Airport / Milton J. Ferguson Field,Huntington,US,medium_airport,8760,13.71,-20.50,37.80,68.23,1084.80,1420,16.21,10.47,77.40,58.79
+41413,3795,PVD,Rhode Island T. F. Green International Airport,Providence/Warwick,US,large_airport,8760,11.06,-15.20,36.30,71.87,1079.00,1179,13.46,13.79,97.90,57.80
+41293,3763,PAE,Seattle Paine Field International Airport,Everett,US,medium_airport,8760,10.78,-7.40,30.90,78.13,1078.70,1611,18.39,9.60,92.90,65.26
+42860,3911,SWF,New York Stewart International Airport,Newburgh,US,medium_airport,8760,10.59,-18.90,35.10,70.36,1078.20,1265,14.44,10.80,90.00,60.35
+38803,3361,ACT,Waco Regional Airport,Waco,US,medium_airport,8760,20.42,-8.00,36.60,69.14,1075.90,846,9.66,11.85,82.80,40.99
+42950,3924,TLH,Tallahassee International Airport,Tallahassee,US,medium_airport,8760,20.09,-6.50,37.00,72.75,1075.20,1079,12.32,8.78,65.90,47.71
+42588,3844,RDU,Raleigh-Durham International Airport,Raleigh/Durham,US,large_airport,8760,15.95,-9.70,37.80,68.31,1072.90,1147,13.09,10.47,94.70,52.14
+39041,3422,BOS,Boston Logan International Airport,Boston,US,large_airport,8760,10.75,-14.70,38.90,68.73,1064.50,1291,14.74,14.53,105.50,57.42
+40817,3681,MGM,Montgomery Regional (Dannelly Field) Airport,Montgomery,US,medium_airport,8760,18.96,-9.30,36.00,71.57,1061.70,1081,12.34,9.04,79.60,46.07
+52940,5393,OME,Nome Airport,Nome,US,medium_airport,8760,-2.27,-33.60,25.10,78.96,1057.60,2006,22.90,14.79,82.10,71.39
+42842,3905,STL,St. Louis Lambert International Airport,St Louis,US,large_airport,8760,13.85,-18.70,36.70,70.66,1052.60,1089,12.43,10.84,89.60,53.63
+41394,3791,PSM,Portsmouth International Airport at Pease,Portsmouth,US,medium_airport,8760,9.22,-20.80,37.00,72.66,1051.20,1251,14.28,11.89,90.70,57.81
+38993,3404,BGM,Greater Binghamton/Edwin A Link field,Binghamton,US,medium_airport,8760,7.62,-24.50,32.00,74.19,1048.70,1751,19.99,12.28,89.30,66.21
+39336,3481,DAY,James M. Cox Dayton International Airport,Dayton,US,medium_airport,8760,11.44,-22.10,33.00,72.55,1047.60,1349,15.40,11.62,85.30,59.13
+40427,3610,IND,Indianapolis International Airport,Indianapolis,US,large_airport,8760,12.18,-21.60,33.90,71.12,1045.70,1282,14.63,10.40,75.20,57.29
+40827,3684,MHT,Manchester-Boston Regional Airport,Manchester,US,medium_airport,8760,9.32,-21.00,36.20,69.12,1041.40,1285,14.67,10.98,91.10,58.29
+40169,3565,GRK,Killeen Regional Airport / Robert Gray Army Airfield,Fort Cavazos,US,medium_airport,8760,20.39,-9.20,38.40,64.22,1037.50,876,10.00,11.07,98.30,41.41
+43111,3950,VRB,Vero Beach Regional Airport,Vero Beach,US,medium_airport,8760,23.50,4.40,35.90,76.26,1036.80,1528,17.44,12.16,76.30,48.00
+38994,3405,BGR,Bangor International Airport,Bangor,US,medium_airport,8760,7.45,-24.20,35.50,71.54,1034.70,1308,14.93,11.12,99.70,58.46
+41327,3771,PHL,Philadelphia International Airport,Philadelphia,US,large_airport,8760,13.19,-14.20,39.00,66.43,1032.70,1183,13.50,10.75,81.70,57.62
+40607,3643,LGA,LaGuardia Airport,New York,US,large_airport,8760,12.56,-16.80,40.20,65.37,1031.30,1226,14.00,10.27,78.10,57.71
+41378,3787,PQI,Presque Isle International Airport,Presque Isle,US,medium_airport,8760,5.20,-24.70,33.90,73.32,1029.90,1605,18.32,12.36,96.80,63.07
+40392,3602,IAD,Washington Dulles International Airport,Dulles,US,large_airport,8760,13.68,-14.40,38.90,66.22,1025.20,1183,13.50,10.91,97.20,56.59
+39991,3536,FOD,Fort Dodge Regional Airport,Fort Dodge,US,medium_airport,8760,9.88,-26.40,33.00,70.90,1022.70,1037,11.84,13.92,84.60,55.58
+40175,3569,GSP,Greenville-Spartanburg International Airport,Greenville/Greer/Spartanburg,US,medium_airport,8760,16.26,-9.40,37.50,66.49,1019.70,1179,13.46,11.09,78.50,49.28
+39127,3439,CAK,Akron Canton Regional Airport,Akron,US,medium_airport,8760,10.55,-26.20,34.00,71.87,1019.50,1551,17.71,13.16,85.70,61.26
+43229,21410,XNA,Northwest Arkansas National Airport,Fayetteville/Springdale/Rogers,US,medium_airport,8760,15.02,-19.90,34.60,71.42,1017.20,1060,12.10,13.75,86.40,48.48
+42831,3899,SRQ,Sarasota Bradenton International Airport,Sarasota/Bradenton,US,large_airport,8760,22.81,4.50,33.50,79.09,1005.50,1073,12.25,12.72,54.40,46.50
+39066,3431,BUF,Buffalo Niagara International Airport,Buffalo,US,large_airport,8760,9.60,-21.60,32.60,72.47,1004.70,1739,19.85,12.64,108.70,63.62
+40448,20193,ITH,Ithaca Tompkins Regional Airport,Ithaca,US,medium_airport,8760,8.86,-24.40,33.20,76.00,1004.50,1837,20.97,12.45,96.80,68.11
+40912,3709,MSP,Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field,Minneapolis,US,large_airport,8760,8.33,-29.30,33.90,70.69,1001.90,1106,12.63,11.42,81.40,58.65
+40125,3555,GGG,East Texas Regional Airport,Longview,US,medium_airport,8760,19.66,-7.70,37.10,71.72,1001.50,986,11.26,10.10,78.80,43.43
+40788,20482,MCW,Mason City Municipal Airport,Mason City,US,medium_airport,8760,9.00,-27.10,32.20,73.21,996.80,1139,13.00,14.55,86.00,57.73
+41349,3781,PLN,Pellston Regional Airport of Emmet County Airport,Pellston,US,medium_airport,8760,6.99,-20.70,34.10,75.46,995.60,1789,20.42,12.11,77.80,66.98
+40797,3672,MDT,Harrisburg International Airport,Harrisburg,US,medium_airport,8760,12.11,-17.90,35.60,68.75,993.60,1183,13.50,11.70,81.40,58.74
+41319,20822,PGD,Punta Gorda Airport,Punta Gorda,US,medium_airport,8760,23.36,3.50,36.50,74.16,992.20,1196,13.65,9.71,70.20,46.11
+39235,3464,COU,Columbia Regional Airport,Columbia,US,medium_airport,8760,13.27,-22.10,35.20,70.06,989.10,970,11.07,12.56,83.90,53.05
+38797,3359,ABY,Southwest Georgia Regional Airport,Albany,US,medium_airport,8760,19.35,-8.20,37.60,70.49,987.80,988,11.28,8.81,72.40,46.83
+42628,3855,ROC,Frederick Douglass Greater Rochester International Airport,Rochester,US,large_airport,8760,9.38,-20.10,35.60,73.05,987.80,1775,20.26,13.68,89.60,65.21
+38859,3375,ALO,Waterloo Regional Airport,Waterloo,US,medium_airport,8760,9.76,-26.20,32.70,71.63,983.80,1082,12.35,12.95,82.40,57.51
+39125,3438,CAE,Columbia Metropolitan Airport,Columbia,US,medium_airport,8760,17.92,-7.10,38.00,67.65,981.40,1042,11.89,9.68,77.40,47.85
+42728,3868,SBN,South Bend International Airport,South Bend,US,medium_airport,8760,10.34,-21.00,33.80,72.71,981.10,1426,16.28,12.77,83.20,60.38
+41425,3796,PWM,Portland International Jetport,Portland,US,large_airport,8760,8.55,-20.80,38.40,71.06,975.60,1231,14.05,11.91,103.00,58.31
+42721,3863,SAT,San Antonio International Airport,San Antonio,US,large_airport,8760,21.70,-6.10,37.50,64.65,973.10,1160,13.24,9.82,83.20,44.91
+40811,3679,MFR,Rogue Valley International-Medford Airport,Medford,US,medium_airport,8760,13.54,-10.00,40.20,68.17,971.70,1194,13.63,4.67,63.40,51.65
+42984,3929,TTN,Trenton Mercer Airport,Ewing Township,US,medium_airport,8760,12.63,-14.90,38.40,66.49,971.70,1182,13.49,11.97,81.70,57.24
+39213,3460,CMX,Houghton County Memorial Airport,Hancock,US,medium_airport,8760,5.76,-26.80,32.60,75.05,969.40,2022,23.08,12.42,85.00,67.79
+41300,20808,PBG,Plattsburgh International Airport,Plattsburgh,US,medium_airport,8760,7.65,-22.90,34.80,72.12,966.60,1511,17.25,11.64,78.10,63.01
+40798,3673,MDW,Chicago Midway International Airport,Chicago,US,large_airport,8760,10.75,-22.40,35.70,69.97,964.40,1169,13.34,10.38,82.80,57.66
+38800,3360,ACK,Nantucket Memorial Airport,Nantucket,US,medium_airport,8760,10.52,-6.80,23.40,79.54,963.90,964,11.00,28.14,112.30,59.83
+40152,3559,GNV,Gainesville Regional Airport,Gainesville,US,medium_airport,8760,20.81,-1.30,37.50,73.59,963.60,1063,12.13,9.04,72.40,48.62
+41334,3775,PIE,St. Petersburg Clearwater International Airport,Pinellas Park,US,large_airport,8760,23.02,2.40,37.50,72.63,961.10,1201,13.71,9.50,68.80,47.60
+39781,3501,EAU,Chippewa Valley Regional Airport,Eau Claire,US,medium_airport,8760,7.39,-29.50,33.00,72.71,956.90,1184,13.52,12.01,76.70,58.51
+38793,3356,ABE,Lehigh Valley International Airport,Allentown/Bethlehem,US,medium_airport,8760,11.41,-18.60,35.80,68.29,956.70,1238,14.13,10.94,80.30,58.30
+39202,3455,CLL,Easterwood Field,College Station,US,medium_airport,8760,21.35,-6.70,38.00,68.57,953.90,1049,11.97,12.17,82.80,44.84
+38930,3388,AVP,Wilkes-Barre/Scranton International Airport,Wilkes-Barre/Scranton,US,medium_airport,8760,9.75,-22.40,35.50,70.86,953.00,1368,15.62,10.15,83.50,63.86
+40581,20319,LAW,Lawton Fort Sill Regional Airport,Lawton,US,medium_airport,8760,17.77,-14.30,37.40,61.13,952.40,671,7.66,14.07,87.80,37.69
+39937,3525,FAY,Fayetteville Regional Airport - Grannis Field,Fayetteville,US,medium_airport,8760,17.19,-11.10,37.50,67.38,952.20,1044,11.92,10.69,82.80,51.83
+38831,3368,AGS,Augusta Regional At Bush Field,Augusta,US,medium_airport,8760,18.44,-6.50,39.10,67.20,951.60,1017,11.61,9.25,70.60,46.50
+39881,3522,EYW,Key West International Airport,Key West,US,medium_airport,8760,25.61,14.70,31.20,77.13,950.60,1209,13.80,19.58,67.70,42.72
+42990,3933,TVC,Cherry Capital Airport,Traverse City,US,medium_airport,8760,8.12,-19.80,32.90,74.85,947.50,1846,21.07,14.64,83.90,66.05
+42583,3841,RDD,Redding Municipal Airport,Redding,US,medium_airport,8760,18.12,-3.70,43.80,55.07,944.90,937,10.70,9.83,97.60,39.05
+43064,21300,SCE,State College Regional Airport,State College,US,medium_airport,8760,9.99,-23.20,34.10,69.68,943.80,1398,15.96,11.32,85.30,62.65
+42627,3854,ROA,Roanoke–Blacksburg Regional Airport,Roanoke,US,medium_airport,8760,13.49,-13.30,36.10,67.20,943.20,1176,13.42,9.44,88.90,55.71
+41116,3747,OKC,OKC Will Rogers World Airport,Oklahoma City,US,large_airport,8760,16.77,-16.10,37.00,63.74,939.50,822,9.38,12.96,103.00,41.98
+39392,3496,DSM,Des Moines International Airport,Des Moines,US,large_airport,8760,11.40,-24.20,35.00,69.15,934.80,961,10.97,11.76,82.80,54.80
+40174,3568,GSO,Piedmont Triad International Airport,Greensboro,US,large_airport,8760,15.29,-10.10,38.10,65.27,933.00,1146,13.08,11.70,87.80,50.82
+43083,3945,VCT,Victoria Regional Airport,Victoria,US,medium_airport,8760,22.78,-5.80,38.60,70.77,927.10,1104,12.60,13.09,75.20,45.38
+42646,3857,RST,Rochester International Airport,Rochester,US,medium_airport,8760,8.14,-27.30,32.40,72.36,926.50,1207,13.78,14.57,83.20,59.03
+42967,3926,TPA,Tampa International Airport,Tampa,US,large_airport,8760,23.10,2.80,38.20,71.22,924.30,1201,13.71,9.57,77.40,48.09
+41154,3754,ORD,Chicago O'Hare International Airport,Chicago,US,large_airport,8760,10.43,-23.00,35.40,70.16,923.10,1146,13.08,10.84,80.60,57.34
+39186,3452,CIU,Chippewa County International Airport,Kincheloe,US,medium_airport,8760,5.89,-25.50,31.40,76.64,910.20,1821,20.79,12.97,80.30,68.06
+40485,20220,USA,Concord-Padgett Regional Airport,Concord,US,medium_airport,8760,16.50,-8.80,38.10,64.52,906.30,1031,11.77,10.42,76.70,50.71
+65659,6369,STT,Cyril E. King Airport,Charlotte Amalie,VI,large_airport,8760,27.15,22.80,30.50,75.02,904.90,1946,22.21,25.57,80.60,44.73
+39830,3510,ELM,Elmira Corning Regional Airport,Elmira/Corning,US,medium_airport,8760,9.06,-23.40,34.80,71.00,897.50,1547,17.66,11.25,89.30,66.01
+42723,3865,MQT,Marquette Sawyer Regional Airport,Gwinn,US,medium_airport,8760,5.67,-28.50,35.00,74.16,889.60,1520,17.35,13.59,85.70,66.10
+40399,3605,ICT,Wichita Dwight D. Eisenhower National Airport,Wichita,US,medium_airport,8760,14.39,-22.70,38.10,66.93,888.90,808,9.22,12.72,99.40,46.09
+52900,5380,AKN,King Salmon Airport,King Salmon,US,medium_airport,8760,3.43,-24.80,23.50,79.12,881.40,2046,23.36,15.26,85.00,76.38
+38947,3390,AZO,Kalamazoo/Battle Creek International Airport,Kalamazoo,US,medium_airport,8760,9.64,-21.80,33.50,74.73,877.70,1500,17.12,12.31,91.80,60.52
+39399,3497,DTW,Detroit Metropolitan Wayne County Airport,Detroit,US,large_airport,8760,10.34,-23.70,38.00,70.55,875.80,1235,14.10,11.72,82.80,58.50
+65683,6384,SJU,Luis Munoz Marin International Airport,San Juan,PR,large_airport,8760,26.98,21.70,32.30,76.58,874.00,2195,25.06,17.82,56.20,48.89
+40393,3603,IAG,Niagara Falls International Airport,Niagara Falls,US,medium_airport,8760,9.60,-21.20,34.40,73.18,871.90,1555,17.75,13.67,91.80,62.89
+39182,3451,CID,The Eastern Iowa Airport,Cedar Rapids,US,medium_airport,8760,10.66,-24.70,35.40,70.08,866.10,954,10.89,12.49,81.40,57.19
+39176,3449,CHO,Charlottesville Albemarle Airport,Charlottesville,US,medium_airport,8760,13.83,-19.80,38.90,66.18,861.10,1019,11.63,8.12,78.10,53.13
+65681,6383,PSE,Mercedita International Airport,Ponce,PR,medium_airport,8760,25.94,16.20,33.80,74.42,852.80,1739,19.85,10.24,59.40,45.90
+39050,19406,BRD,Brainerd Lakes Regional Airport,Brainerd,US,medium_airport,8760,6.47,-31.70,33.00,71.39,850.60,1118,12.76,12.61,76.00,59.08
+39206,3457,CLT,Charlotte Douglas International Airport,Charlotte,US,large_airport,8760,16.57,-8.20,38.00,65.26,847.00,1033,11.79,9.71,75.20,49.71
+41133,3751,OMA,Eppley Airfield,Omaha,US,large_airport,8760,11.61,-24.40,39.20,68.88,838.30,919,10.49,12.16,86.40,51.17
+40263,3577,HGR,Hagerstown Regional Richard A Henson Field,Hagerstown,US,medium_airport,8760,12.70,-17.90,36.80,65.97,837.90,1078,12.31,10.85,84.20,57.70
+40662,3654,LSE,La Crosse Regional Airport,La Crosse,US,medium_airport,8760,8.81,-26.70,33.10,72.26,837.70,1079,12.32,11.30,78.50,59.76
+42854,3909,SUX,Sioux Gateway Airport / Brigadier General Bud Day Field,Sioux City,US,medium_airport,8760,10.73,-26.10,39.90,68.22,827.70,934,10.66,12.89,91.80,52.82
+40022,3547,FWA,Fort Wayne International Airport,Fort Wayne,US,medium_airport,8760,10.70,-20.70,33.40,72.09,821.20,1225,13.98,12.46,85.00,58.51
+38918,3385,ATY,Watertown Regional Airport,Watertown,US,medium_airport,8760,7.42,-30.00,33.80,72.86,811.70,1043,11.91,14.85,81.70,56.48
+41332,3773,PIA,General Wayne A. Downing Peoria International Airport,Peoria,US,medium_airport,8760,11.98,-22.20,34.50,68.40,809.30,980,11.19,11.73,81.70,56.07
+40776,3664,MBS,MBS International Airport,Freeland,US,medium_airport,8760,8.89,-21.90,35.50,71.28,808.90,1149,13.12,13.03,85.30,59.90
+52928,5388,ANC,Ted Stevens Anchorage International Airport,Anchorage,US,large_airport,8760,4.30,-19.20,19.40,80.19,808.80,1619,18.48,11.90,75.60,76.01
+39281,19571,CWA,Central Wisconsin Airport,Mosinee,US,medium_airport,8760,6.81,-29.60,32.80,74.64,807.30,1189,13.57,12.00,90.00,59.66
+39856,19770,ESC,Delta County Airport,Escanaba,US,medium_airport,8760,6.73,-27.30,30.10,73.82,806.70,1195,13.64,13.63,97.60,61.75
+42837,3903,STC,Saint Cloud Regional Airport,Saint Cloud,US,medium_airport,8760,7.15,-30.50,34.00,72.32,805.70,1097,12.52,12.86,79.20,57.77
+42823,3898,SPS,Wichita Falls Municipal Airport / Sheppard Air Force Base,Wichita Falls,US,medium_airport,8760,18.86,-13.50,38.20,58.46,803.40,628,7.17,12.54,92.20,36.35
+39989,3535,FNT,Bishop International Airport,Flint,US,medium_airport,8760,9.34,-22.10,35.20,71.67,801.10,1303,14.87,13.51,94.70,60.18
+38928,3387,AVL,Asheville Regional Airport,Asheville,US,medium_airport,8760,13.03,-13.40,34.20,71.34,798.80,1242,14.18,10.43,92.20,53.99
+42592,3845,RFD,Chicago Rockford International Airport,Chicago/Rockford,US,medium_airport,8760,10.20,-24.30,35.00,69.19,797.90,1033,11.79,12.60,86.40,57.44
+38796,3358,ABR,Aberdeen Regional Airport,Aberdeen,US,medium_airport,8760,8.02,-31.80,37.60,68.99,791.90,910,10.39,13.65,85.00,54.61
+42596,3846,RHI,Rhinelander Oneida County Airport,Rhinelander,US,medium_airport,8760,5.69,-31.60,30.80,73.65,791.80,1335,15.24,12.31,82.40,64.18
+38886,3382,APN,Alpena County Regional Airport,Alpena,US,medium_airport,8760,7.23,-22.10,34.80,73.07,786.50,1373,15.67,12.51,83.50,63.20
+40823,3683,MHK,Manhattan Regional Airport,Manhattan,US,medium_airport,8760,13.42,-25.90,36.10,67.03,785.70,850,9.70,14.11,97.60,47.02
+39030,3419,BMI,Central Illinois Regional Airport at Bloomington-Normal,Bloomington/Normal,US,medium_airport,8760,11.58,-21.90,32.60,69.52,782.40,1039,11.86,13.44,78.50,56.89
+38917,19320,ATW,Appleton International Airport,Appleton,US,medium_airport,8760,8.04,-26.10,34.70,71.47,778.80,1073,12.25,13.14,95.00,57.19
+39052,3426,BRO,Brownsville South Padre Island International Airport,Brownsville,US,medium_airport,8760,24.38,-0.90,36.10,74.91,777.90,1223,13.96,13.39,76.00,46.99
+52813,5338,BET,Bethel Airport,Bethel,US,medium_airport,8760,0.62,-30.40,23.70,82.22,777.70,2061,23.53,14.36,102.20,79.41
+40171,3566,GRR,Gerald R. Ford International Airport,Grand Rapids,US,large_airport,8760,9.48,-21.10,34.90,72.36,774.10,1340,15.30,13.16,87.50,60.46
+40426,20177,IMT,Ford Airport,Kingsford,US,medium_airport,8760,6.20,-30.20,34.20,71.62,767.20,1195,13.64,12.19,83.50,63.65
+42964,3925,TOL,Eugene F. Kranz Toledo Express Airport,Toledo,US,medium_airport,8760,10.61,-22.70,35.10,71.53,765.70,1269,14.49,12.63,88.20,58.82
+40349,20109,HYS,Hays Regional Airport,Hays,US,medium_airport,8760,13.35,-25.50,38.20,62.51,765.20,782,8.93,14.08,105.10,43.29
+42821,3897,SPI,Abraham Lincoln Capital Airport,Springfield,US,medium_airport,8760,12.83,-21.00,34.90,68.32,765.00,978,11.16,12.00,80.60,55.02
+40857,3695,MLI,Quad City International Airport,Moline,US,medium_airport,8760,11.50,-23.80,36.30,67.69,764.90,909,10.38,12.07,83.50,56.28
+40460,3618,JAC,Jackson Hole Airport,Jackson,US,medium_airport,8760,5.38,-29.80,28.80,60.96,761.60,1681,19.19,5.98,85.70,53.22
+65660,6370,STX,Henry E. Rohlsen Airport,Christiansted,VI,medium_airport,8760,27.39,22.40,32.80,71.08,760.30,2125,24.26,18.20,80.60,46.95
+42725,3866,SBA,Santa Barbara Municipal Airport,Santa Barbara,US,medium_airport,8760,17.57,3.30,36.60,68.67,759.60,590,6.74,5.82,95.00,33.24
+39345,3485,DEC,Decatur Airport,Decatur,US,medium_airport,8760,12.38,-20.70,34.10,70.06,755.30,1010,11.53,12.74,78.50,54.98
+42844,21114,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,US,medium_airport,8760,14.81,-0.40,38.40,73.88,754.70,813,9.28,6.92,77.40,45.81
+39006,3409,BIS,Bismarck Municipal Airport,Bismarck,US,medium_airport,8760,6.83,-35.70,34.50,69.34,751.00,956,10.91,13.27,91.80,55.51
+40164,3562,GRB,Austin Straubel International Airport,Green Bay,US,medium_airport,8760,8.10,-25.20,35.80,70.76,750.90,1049,11.97,12.30,88.20,56.89
+40005,3541,FSD,Sioux Falls Regional Airport,Sioux Falls,US,medium_airport,8760,9.37,-29.90,37.00,69.07,747.20,918,10.48,14.38,91.40,54.96
+39010,19380,BJI,Bemidji Regional Airport,Bemidji,US,medium_airport,8760,5.19,-32.70,33.20,73.25,746.70,1123,12.82,12.99,74.90,61.30
+40575,3627,LAF,Purdue University Airport,West Lafayette,US,medium_airport,8760,11.81,-19.80,34.20,69.33,746.60,1116,12.74,12.09,83.20,57.00
+39211,3459,CMI,University of Illinois Willard Airport,Savoy,US,medium_airport,8760,12.11,-21.50,33.90,68.87,741.10,1002,11.44,12.78,87.10,55.72
+40842,3690,MKE,General Mitchell International Airport,Milwaukee,US,large_airport,8760,9.05,-22.10,35.60,74.99,732.40,1035,11.82,15.15,92.20,56.09
+40910,3707,MSN,Dane County Regional Truax Field,Madison,US,medium_airport,8760,9.03,-24.90,32.90,72.32,720.80,1068,12.19,12.83,89.30,58.06
+40578,3629,LAN,Capital Region International Airport,Lansing,US,medium_airport,8760,9.44,-21.70,34.00,71.50,714.70,1322,15.09,13.12,85.30,59.97
+39935,3523,FAR,Hector International Airport,Fargo,US,medium_airport,8760,6.68,-31.10,34.70,70.69,713.90,991,11.31,12.96,81.00,57.11
+39343,3484,DDC,Dodge City Regional Airport,Dodge City,US,medium_airport,8760,13.65,-21.10,37.70,61.74,705.90,792,9.04,14.89,95.40,43.14
+42781,3884,SJT,San Angelo Regional Mathis Field,San Angelo,US,medium_airport,8760,20.43,-9.90,39.90,54.78,704.50,476,5.43,14.83,98.30,33.99
+40431,3612,INL,Falls International Airport,International Falls,US,medium_airport,8760,4.41,-34.40,31.70,72.29,701.70,1293,14.76,12.26,81.00,62.48
+40639,3647,LNK,Lincoln Airport,Lincoln,US,medium_airport,8760,12.22,-24.50,40.90,65.64,695.00,786,8.97,13.40,92.50,48.04
+40482,3624,JMS,Jamestown Regional Airport,Jamestown,US,medium_airport,8760,6.11,-33.10,32.10,72.30,692.70,915,10.45,13.90,82.40,57.05
+41338,3777,PIR,Pierre Regional Airport,Pierre,US,medium_airport,8760,9.88,-27.90,38.50,65.66,688.40,881,10.06,14.57,97.60,52.42
+39359,19630,DIK,Dickinson Theodore Roosevelt Regional Airport,Dickinson,US,medium_airport,8760,7.07,-32.50,38.80,66.44,669.10,954,10.89,15.06,93.20,55.19
+39366,3491,DLH,Duluth International Airport,Duluth,US,medium_airport,8760,4.85,-32.90,32.90,73.18,666.10,1132,12.92,13.45,87.10,60.51
+40309,3591,HRL,Valley International Airport,Harlingen,US,medium_airport,8760,24.37,-2.20,38.60,72.97,659.30,1097,12.52,13.31,64.40,46.33
+39252,3466,CRP,Corpus Christi International Airport,Corpus Christi,US,medium_airport,8760,23.20,-3.20,35.10,75.71,656.90,959,10.95,13.34,86.80,44.56
+40168,3564,GRI,Central Nebraska Regional Airport,Grand Island,US,medium_airport,8760,11.65,-28.20,36.30,64.75,656.40,808,9.22,14.15,100.40,48.42
+42788,3887,SLC,Salt Lake City International Airport,Salt Lake City,US,large_airport,8760,13.10,-13.70,40.20,48.23,641.70,793,9.05,8.65,74.90,47.59
+42795,3891,SLN,Salina Municipal Airport,Salina,US,medium_airport,8760,13.67,-25.80,38.30,66.72,641.10,793,9.05,13.46,96.50,45.15
+39068,3432,BUR,Hollywood Burbank/Bob Hope Airport,Burbank,US,large_airport,8760,18.17,1.90,39.30,61.14,640.20,602,6.87,5.87,89.30,34.11
+42800,3892,SMF,Sacramento International Airport,Sacramento,US,large_airport,8760,16.96,-0.90,41.20,64.76,633.00,651,7.43,8.89,74.90,36.14
+40268,3579,HIB,Range Regional Airport,Hibbing,US,medium_airport,8760,4.55,-35.80,31.50,72.65,629.60,1134,12.95,12.46,78.80,62.00
+40585,3635,LBF,North Platte Regional Airport Lee Bird Field,North Platte,US,medium_airport,8760,10.73,-28.60,35.60,64.43,629.50,765,8.73,13.54,92.20,48.18
+40101,3550,GCK,Garden City Regional Airport,Garden City,US,medium_airport,8760,13.63,-21.10,41.40,59.07,620.70,696,7.95,14.09,96.80,42.85
+42586,3843,RDM,Roberts Field,Redmond,US,medium_airport,8760,10.50,-22.20,36.10,62.00,619.00,962,10.98,10.96,85.00,52.79
+41142,3752,ONT,Ontario International Airport,Ontario,US,large_airport,8760,19.22,4.30,40.20,56.43,593.80,577,6.59,6.19,70.20,30.75
+40159,3527,FCA,Glacier Park International Airport,Kalispell,US,medium_airport,8760,7.47,-28.10,31.50,68.32,590.80,1250,14.27,6.19,65.50,57.33
+42730,3869,SBP,San Luis County Regional Airport,San Luis Obispo,US,medium_airport,8760,14.50,0.00,38.70,75.59,582.80,526,6.00,7.44,82.40,41.91
+38904,19308,ASE,Aspen-Pitkin County Airport (Sardy Field),Aspen,US,medium_airport,8760,5.77,-31.50,32.00,55.89,577.90,1135,12.96,5.88,86.40,46.95
+39779,19716,EAR,Kearney Regional Airport,Kearney,US,medium_airport,8760,11.59,-28.60,35.50,64.02,574.40,760,8.68,14.10,99.70,47.80
+39092,3437,BZN,Bozeman Yellowstone International Airport,Bozeman,US,medium_airport,8760,7.04,-28.90,34.00,61.09,574.20,1138,12.99,5.38,82.10,55.50
+40120,3553,GFK,Grand Forks International Airport,Grand Forks,US,medium_airport,8760,5.87,-32.10,34.40,71.51,569.20,922,10.53,13.38,77.00,57.31
+41089,3744,OAK,Oakland San Francisco Bay Airport,Oakland,US,large_airport,8760,14.24,1.20,35.10,79.18,555.40,810,9.25,9.09,87.80,49.52
+38863,3377,AMA,Rick Husband Amarillo International Airport,Amarillo,US,medium_airport,8760,15.17,-16.50,38.60,54.02,554.30,600,6.85,15.61,104.80,38.02
+40586,3636,LBL,Liberal Mid-America Regional Airport,Liberal,US,medium_airport,8760,14.78,-18.60,40.30,55.67,554.20,647,7.39,14.76,103.70,41.53
+39005,3408,BIL,Billings Logan International Airport,Billings,US,medium_airport,8760,9.74,-33.50,38.20,57.29,549.00,954,10.89,10.30,91.80,53.97
+40582,3632,LAX,Los Angeles International Airport,Los Angeles,US,large_airport,8760,16.49,4.90,30.60,75.97,543.80,544,6.21,6.91,74.20,40.08
+42773,3881,SHR,Sheridan County Airport,Sheridan,US,medium_airport,8760,7.51,-35.40,34.30,64.43,541.30,1067,12.18,7.07,91.10,53.70
+40911,3708,MSO,Missoula Montana Airport,Missoula,US,medium_airport,8760,8.44,-28.60,34.90,61.61,537.20,1237,14.12,4.80,81.40,58.64
+40809,3678,MFE,McAllen Miller International Airport,McAllen,US,medium_airport,8760,24.91,-2.50,39.90,68.01,535.50,895,10.22,12.70,69.80,45.85
+42738,3872,SCK,Stockton Metropolitan Airport,Stockton,US,medium_airport,8760,16.67,-0.90,38.90,65.28,533.10,522,5.96,8.41,83.20,35.23
+40687,20393,LWS,Lewiston Nez Perce County Airport,Lewiston,US,medium_airport,8760,12.56,-19.20,38.40,60.26,528.10,959,10.95,4.81,92.20,53.81
+42805,3893,SMX,Santa Maria Public Airport Captain G Allan Hancock Field,Santa Maria,US,medium_airport,8760,13.74,-1.30,32.20,78.63,524.00,501,5.72,8.94,78.80,47.87
+42848,21118,SUN,Friedman Memorial Airport,Hailey,US,medium_airport,8760,7.68,-26.60,32.90,58.10,521.60,919,10.49,9.07,72.70,46.50
+39388,19654,DRO,Durango La Plata County Airport,Durango,US,medium_airport,8760,9.00,-19.70,33.30,49.88,514.70,680,7.76,7.53,79.60,37.32
+54020,5453,HNL,Daniel K. Inouye International Airport,"Honolulu, Oahu",US,large_airport,8760,24.30,14.30,31.50,70.94,514.60,1701,19.42,13.65,77.00,47.44
+43205,3955,WYS,Yellowstone Airport,West Yellowstone,US,medium_airport,8760,3.26,-38.60,28.30,65.30,514.00,1314,15.00,7.52,92.90,56.17
+39407,19668,DVL,Devils Lake Regional Airport,Devils Lake,US,medium_airport,8760,5.24,-34.70,31.10,73.62,512.70,978,11.16,14.96,95.40,58.31
+42759,3878,SFO,San Francisco International Airport,San Francisco,US,large_airport,8760,13.80,3.80,33.50,81.45,511.90,750,8.56,10.47,100.40,54.97
+42779,3883,SJC,Mineta San Jose International Airport,San Jose,US,large_airport,8760,15.83,-1.20,36.20,68.28,503.70,605,6.91,5.81,71.60,41.37
+52852,5360,FAI,Fairbanks International Airport,Fairbanks,US,medium_airport,8760,-0.78,-41.20,30.50,72.04,502.00,1368,15.62,7.07,64.80,67.82
+40885,3702,MOT,Minot International Airport,Minot,US,medium_airport,8760,5.98,-37.80,36.70,68.09,497.10,894,10.21,13.57,90.70,58.17
+40908,3705,MRY,Monterey Regional Airport,Monterey,US,medium_airport,8760,13.65,2.30,30.70,76.65,490.90,647,7.39,8.14,69.10,47.71
+52943,5395,OTZ,Ralph Wien Memorial Airport,Kotzebue,US,medium_airport,8760,-3.39,-35.20,28.70,79.25,490.60,1420,16.21,15.00,83.20,67.39
+42623,3853,RNO,Reno Tahoe International Airport,Reno,US,large_airport,8760,12.67,-10.70,39.10,49.42,475.30,637,7.27,5.29,70.60,36.63
+39348,3486,DEN,Denver International Airport,Denver,US,large_airport,8760,11.86,-21.80,37.30,47.30,474.60,735,8.39,10.55,75.20,46.45
+40112,3552,GEG,Spokane International Airport,Spokane,US,large_airport,8760,10.34,-19.80,37.10,60.55,472.70,1014,11.58,10.76,90.70,54.71
+40608,3644,LGB,Long Beach International Airport,Long Beach,US,large_airport,8760,18.22,4.70,38.80,68.68,471.60,523,5.97,5.11,64.10,39.71
+38794,3357,ABI,Abilene Regional Airport,Abilene,US,medium_airport,8760,19.50,-12.00,38.20,54.59,470.30,487,5.56,13.84,95.80,34.29
+42806,3894,SNA,John Wayne Orange County International Airport,Santa Ana,US,large_airport,8760,17.61,4.00,36.10,70.84,459.50,536,6.12,5.35,73.80,43.58
+40099,19929,GCC,Northeast Wyoming Regional Airport,Gillette,US,medium_airport,8760,8.50,-27.40,35.50,59.92,453.10,921,10.51,15.64,93.60,50.98
+39039,3421,BOI,Boise Air Terminal/Gowen Field,Boise,US,large_airport,8760,12.88,-15.00,39.20,52.71,448.20,761,8.69,8.47,64.80,46.30
+40282,3582,HLN,Helena Regional Airport,Helena,US,medium_airport,8760,7.88,-33.70,34.30,59.91,446.20,1060,12.10,7.58,122.00,56.10
+40654,3651,LRD,Laredo International Airport,Laredo,US,medium_airport,8760,25.01,-2.70,41.80,57.13,445.90,622,7.10,12.86,98.60,39.54
+38987,3402,BFL,Meadows Field,Bakersfield,US,medium_airport,8760,19.35,0.90,43.20,50.25,444.80,395,4.51,6.68,63.00,28.06
+39974,3530,FLG,Flagstaff Pulliam Airport,Flagstaff,US,medium_airport,8760,10.13,-14.20,32.60,47.43,444.30,706,8.06,11.12,91.10,33.29
+42565,3838,RAP,Rapid City Regional Airport,Rapid City,US,medium_airport,8760,9.74,-27.90,38.70,60.39,444.10,922,10.53,14.26,116.60,50.68
+41331,3772,PHX,Phoenix Sky Harbor International Airport,Phoenix,US,large_airport,8760,24.42,1.00,46.90,31.66,439.70,328,3.74,5.85,69.80,26.28
+39059,3428,BTM,Bert Mooney Airport,Butte,US,medium_airport,8760,6.07,-32.20,31.10,60.26,439.60,1116,12.74,7.18,88.60,54.52
+42718,3862,SAN,San Diego International Airport,San Diego,US,large_airport,8760,16.95,4.60,30.50,74.08,435.60,587,6.70,6.35,73.10,40.53
+39003,19377,BIH,Eastern Sierra Regional Airport,Bishop,US,medium_airport,8760,16.56,-2.30,38.20,30.01,434.40,405,4.62,5.18,84.20,29.06
+43235,324440,XWA,Williston Basin International Airport,Williston,US,medium_airport,8760,5.74,-36.70,35.00,69.02,432.10,759,8.66,13.10,87.80,56.15
+39226,19530,COD,Yellowstone Regional Airport,Cody,US,medium_airport,8760,6.50,-28.90,33.20,61.54,428.40,929,10.61,8.54,97.60,51.65
+40251,20038,HDN,Yampa Valley Airport,Hayden,US,medium_airport,8760,6.21,-32.40,34.50,58.72,422.40,922,10.53,8.47,78.10,49.72
+39253,19552,CLD,McClellan-Palomar Airport,Carlsbad,US,medium_airport,8760,16.46,3.50,31.00,74.48,416.70,601,6.86,6.29,63.70,40.09
+40178,3571,GTF,Great Falls International Airport,Great Falls,US,medium_airport,8760,8.46,-34.00,35.10,56.63,413.00,947,10.81,12.56,102.20,56.43
+39233,3463,COS,City of Colorado Springs Municipal Airport,Colorado Springs,US,large_airport,8760,10.14,-26.60,35.40,53.32,408.50,693,7.91,8.06,85.00,45.47
+38984,3400,BFF,Western Neb. Rgnl/William B. Heilig Airport,Scottsbluff,US,medium_airport,8760,10.88,-24.80,37.70,56.51,394.00,680,7.76,11.89,87.80,47.64
+39936,3524,FAT,Fresno Yosemite International Airport,Fresno,US,large_airport,8760,18.83,-0.20,42.30,55.73,380.70,402,4.59,6.88,56.90,30.79
+41418,20890,PVU,Provo Municipal Airport,Provo,US,medium_airport,8760,12.30,-15.00,37.20,55.77,374.10,648,7.40,5.67,110.50,45.21
+42717,21033,SAF,Santa Fe Municipal Airport,Santa Fe,US,medium_airport,8760,12.21,-16.30,34.40,41.80,373.90,523,5.97,11.75,98.60,34.25
+41335,3776,PIH,Pocatello Regional Airport,Pocatello,US,medium_airport,8760,10.29,-21.90,37.00,52.67,370.20,798,9.11,10.29,87.80,49.12
+40579,3630,LAR,Laramie Regional Airport,Laramie,US,medium_airport,8760,6.34,-29.20,31.20,58.25,358.00,903,10.31,13.48,88.20,49.41
+39294,3476,CYS,Cheyenne Regional Jerry Olson Field,Cheyenne,US,medium_airport,8760,9.40,-27.20,33.10,50.88,353.50,844,9.63,16.16,98.30,48.40
+40583,3633,LBB,Lubbock Preston Smith International Airport,Lubbock,US,medium_airport,8760,17.32,-14.60,39.50,48.78,340.90,416,4.75,12.69,94.00,34.40
+40450,3617,AZA,Mesa Gateway Airport,Mesa,US,medium_airport,8760,23.47,-0.50,46.30,32.79,337.70,317,3.62,7.46,76.70,25.76
+39822,3508,EKO,Elko Regional Airport,Elko,US,medium_airport,8760,11.67,-10.90,36.10,47.18,336.80,649,7.41,8.52,88.20,43.73
+40767,3663,MAF,Midland International Air and Space Port,Midland,US,medium_airport,8760,19.70,-10.70,39.80,45.48,325.80,353,4.03,15.10,83.20,32.09
+40134,3557,GJT,Grand Junction Regional Airport,Grand Junction,US,medium_airport,8760,13.81,-14.10,39.70,40.21,324.40,461,5.26,6.80,62.30,41.35
+42997,3935,TWF,Joslin Field Magic Valley Regional Airport,Twin Falls,US,medium_airport,8760,12.35,-11.50,38.30,46.40,316.60,638,7.28,12.13,97.60,45.91
+39239,3465,CPR,Casper-Natrona County International Airport,Casper,US,medium_airport,8760,9.33,-30.60,36.50,53.66,311.10,711,8.12,16.13,93.60,48.01
+39808,3505,EGE,Eagle County Regional Airport,Eagle,US,medium_airport,8760,8.51,-29.10,34.50,52.66,304.10,688,7.85,5.09,83.50,45.76
+41391,20870,PSC,Tri Cities Airport,Pasco,US,medium_airport,8760,14.35,-10.80,40.50,59.77,303.00,638,7.28,7.78,87.80,51.61
+42988,3932,TUS,Tucson International Airport,Tucson,US,large_airport,8760,22.17,-2.30,44.40,32.11,302.80,307,3.50,9.21,86.40,25.98
+52819,5342,BRW,Wiley Post Will Rogers Memorial Airport,Utqiaġvik,US,medium_airport,8760,-8.43,-34.60,17.00,83.55,302.60,1249,14.26,19.91,121.70,84.75
+40400,3606,IDA,Idaho Falls Regional Airport,Idaho Falls,US,medium_airport,8760,9.07,-28.30,36.00,56.41,301.20,748,8.54,10.16,76.30,51.23
+41383,3789,PRC,Prescott Regional Airport - Ernest A. Love Field,Prescott,US,medium_airport,8760,15.18,-8.70,38.10,42.08,298.80,428,4.89,9.39,66.20,29.68
+52961,5405,SCC,Deadhorse Airport,Deadhorse,US,medium_airport,8760,-8.63,-39.70,22.70,82.83,286.10,1231,14.05,16.61,101.90,79.50
+40182,19984,GUC,Gunnison Crested Butte Regional Airport,Gunnison,US,medium_airport,8760,5.61,-32.60,31.60,58.14,284.20,731,8.34,7.46,71.30,42.24
+42606,20933,RIW,Central Wyoming Regional Airport,Riverton,US,medium_airport,8760,8.18,-28.40,36.80,53.00,281.30,573,6.54,8.19,97.90,48.27
+42631,3856,ROW,Roswell Air Center Airport,Roswell,US,medium_airport,8760,18.29,-12.90,43.10,40.85,279.90,359,4.10,12.28,95.40,31.31
+39143,3442,CDC,Cedar City Regional Airport,Cedar City,US,medium_airport,8760,12.64,-12.60,35.50,38.67,272.90,460,5.25,9.43,83.20,34.94
+39984,19881,FMN,Four Corners Regional Airport,Farmington,US,medium_airport,8760,13.27,-15.80,38.20,41.64,261.50,424,4.84,9.99,97.20,34.24
+40918,20565,MTJ,Montrose Regional Airport,Montrose,US,medium_airport,8760,11.98,-15.40,38.50,40.79,257.50,491,5.61,7.91,72.40,40.89
+38795,16091,ABQ,Albuquerque International Sunport,Albuquerque,US,large_airport,8760,16.10,-12.70,39.00,36.54,250.70,349,3.98,7.23,93.20,33.15
+39833,3512,ELP,El Paso International Airport,El Paso,US,large_airport,8760,19.55,-7.20,40.70,34.20,236.10,281,3.21,8.67,87.80,28.48
+40293,20071,HOB,Lea County Regional Airport,Hobbs,US,medium_airport,8760,18.18,-13.90,41.60,43.34,226.40,329,3.76,14.71,101.20,32.21
+41397,3792,PSP,Palm Springs International Airport,Palm Springs,US,large_airport,8760,24.08,2.30,46.70,29.94,219.30,213,2.43,7.94,54.40,24.16
+42612,3850,RKS,Southwest Wyoming Regional Airport,Rock Springs,US,medium_airport,8760,8.47,-25.60,34.30,48.19,208.90,606,6.92,12.35,87.50,46.47
+41049,3961,YUM,Yuma International Airport / Marine Corps Air Station Yuma,Yuma,US,medium_airport,8760,24.76,2.80,47.90,33.71,181.30,136,1.55,8.93,73.40,21.15
+54023,5455,OGG,Kahului International Airport,Kahului,US,large_airport,8760,25.27,18.20,32.00,64.76,168.80,630,7.19,16.33,82.10,41.79
+40580,3631,LAS,Harry Reid International Airport,Las Vegas,US,large_airport,8760,21.64,-3.10,45.70,26.77,141.40,213,2.43,7.00,81.70,26.90
+42769,21065,SGU,St George Regional Airport,St George,US,medium_airport,8760,18.92,-5.60,42.30,32.05,130.00,221,2.52,6.14,57.60,30.67

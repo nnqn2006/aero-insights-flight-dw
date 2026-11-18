@@ -1,0 +1,14 @@
+.venv*/
+venv*/
+.env
+*.env
+_fw_work/
+05_SQL_EXPORTS/
+06_FW_TOOLS/
+07_TESTS/
+__pycache__/
+*.pyc
+*.zip
+*.bak
+_backup*/
+03_EXPORT_DATA/*.tmp

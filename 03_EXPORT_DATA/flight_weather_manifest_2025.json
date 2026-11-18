@@ -1,0 +1,1523 @@
+{
+  "Dataset": "Flight x Weather snapshot — Flight DW 2025",
+  "Tool": "fw-export-1.0.0",
+  "GeneratedAtUTC": "2026-11-18T16:40:12Z",
+  "BridgeRunID": "20261110_030433_504879",
+  "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+  "ScopeMonths": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "ScopeLabel": "January–September 2025",
+  "MonthsByExposure": {
+    "ACTUAL_ARRIVAL": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "ACTUAL_DEPARTURE": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "SCHEDULED_ARRIVAL": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "SCHEDULED_DEPARTURE": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09"
+    ]
+  },
+  "Partitions": [
+    {
+      "Partition": "01|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 539747,
+      "CoverageRows": 539747,
+      "CoverageMatchedRows": 522259,
+      "PreviewMatchedRows": 522259,
+      "ImpactMatchedRows": 522259,
+      "ImpactGroups": 2225,
+      "CoverageGroups": 790,
+      "EligibleFlights": 522259,
+      "DelayedFlights": 98124,
+      "FlightKeyRange": [
+        1,
+        539747
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:11:59Z"
+    },
+    {
+      "Partition": "01|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 539747,
+      "CoverageRows": 539747,
+      "CoverageMatchedRows": 523821,
+      "PreviewMatchedRows": 523821,
+      "ImpactMatchedRows": 523821,
+      "ImpactGroups": 2244,
+      "CoverageGroups": 612,
+      "EligibleFlights": 523432,
+      "DelayedFlights": 95432,
+      "FlightKeyRange": [
+        1,
+        539747
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:11:59Z"
+    },
+    {
+      "Partition": "01|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 539747,
+      "CoverageRows": 539747,
+      "CoverageMatchedRows": 539738,
+      "PreviewMatchedRows": 539738,
+      "ImpactMatchedRows": 539738,
+      "ImpactGroups": 2304,
+      "CoverageGroups": 338,
+      "EligibleFlights": 522263,
+      "DelayedFlights": 98127,
+      "FlightKeyRange": [
+        1,
+        539747
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:11:58Z"
+    },
+    {
+      "Partition": "01|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 539747,
+      "CoverageRows": 539747,
+      "CoverageMatchedRows": 539744,
+      "PreviewMatchedRows": 539744,
+      "ImpactMatchedRows": 539744,
+      "ImpactGroups": 2294,
+      "CoverageGroups": 331,
+      "EligibleFlights": 523432,
+      "DelayedFlights": 95432,
+      "FlightKeyRange": [
+        1,
+        539747
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:11:57Z"
+    },
+    {
+      "Partition": "02|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 504884,
+      "CoverageRows": 504884,
+      "CoverageMatchedRows": 496467,
+      "PreviewMatchedRows": 496467,
+      "ImpactMatchedRows": 496467,
+      "ImpactGroups": 2317,
+      "CoverageGroups": 776,
+      "EligibleFlights": 496467,
+      "DelayedFlights": 103097,
+      "FlightKeyRange": [
+        539748,
+        1044631
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:15:17Z"
+    },
+    {
+      "Partition": "02|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 504884,
+      "CoverageRows": 504884,
+      "CoverageMatchedRows": 497745,
+      "PreviewMatchedRows": 497745,
+      "ImpactMatchedRows": 497745,
+      "ImpactGroups": 2328,
+      "CoverageGroups": 604,
+      "EligibleFlights": 497479,
+      "DelayedFlights": 97670,
+      "FlightKeyRange": [
+        539748,
+        1044631
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:15:16Z"
+    },
+    {
+      "Partition": "02|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 504884,
+      "CoverageRows": 504884,
+      "CoverageMatchedRows": 504871,
+      "PreviewMatchedRows": 504871,
+      "ImpactMatchedRows": 504871,
+      "ImpactGroups": 2354,
+      "CoverageGroups": 338,
+      "EligibleFlights": 496467,
+      "DelayedFlights": 103097,
+      "FlightKeyRange": [
+        539748,
+        1044631
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:15:15Z"
+    },
+    {
+      "Partition": "02|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 504884,
+      "CoverageRows": 504884,
+      "CoverageMatchedRows": 504884,
+      "PreviewMatchedRows": 504884,
+      "ImpactMatchedRows": 504884,
+      "ImpactGroups": 2347,
+      "CoverageGroups": 330,
+      "EligibleFlights": 497479,
+      "DelayedFlights": 97670,
+      "FlightKeyRange": [
+        539748,
+        1044631
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:15:15Z"
+    },
+    {
+      "Partition": "03|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 600872,
+      "CoverageRows": 600872,
+      "CoverageMatchedRows": 592215,
+      "PreviewMatchedRows": 592215,
+      "ImpactMatchedRows": 592215,
+      "ImpactGroups": 2625,
+      "CoverageGroups": 822,
+      "EligibleFlights": 592215,
+      "DelayedFlights": 115983,
+      "FlightKeyRange": [
+        1044632,
+        1645503
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:19:11Z"
+    },
+    {
+      "Partition": "03|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 600872,
+      "CoverageRows": 600872,
+      "CoverageMatchedRows": 594246,
+      "PreviewMatchedRows": 594246,
+      "ImpactMatchedRows": 594246,
+      "ImpactGroups": 2607,
+      "CoverageGroups": 596,
+      "EligibleFlights": 593933,
+      "DelayedFlights": 113756,
+      "FlightKeyRange": [
+        1044632,
+        1645503
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:19:10Z"
+    },
+    {
+      "Partition": "03|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 600872,
+      "CoverageRows": 600872,
+      "CoverageMatchedRows": 600827,
+      "PreviewMatchedRows": 600827,
+      "ImpactMatchedRows": 600827,
+      "ImpactGroups": 2672,
+      "CoverageGroups": 362,
+      "EligibleFlights": 592258,
+      "DelayedFlights": 116024,
+      "FlightKeyRange": [
+        1044632,
+        1645503
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:19:09Z"
+    },
+    {
+      "Partition": "03|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 600872,
+      "CoverageRows": 600872,
+      "CoverageMatchedRows": 600872,
+      "PreviewMatchedRows": 600872,
+      "ImpactMatchedRows": 600872,
+      "ImpactGroups": 2669,
+      "CoverageGroups": 332,
+      "EligibleFlights": 593949,
+      "DelayedFlights": 113772,
+      "FlightKeyRange": [
+        1044632,
+        1645503
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:19:08Z"
+    },
+    {
+      "Partition": "04|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 583950,
+      "CoverageRows": 583950,
+      "CoverageMatchedRows": 577714,
+      "PreviewMatchedRows": 577714,
+      "ImpactMatchedRows": 577714,
+      "ImpactGroups": 2603,
+      "CoverageGroups": 732,
+      "EligibleFlights": 577714,
+      "DelayedFlights": 113595,
+      "FlightKeyRange": [
+        1645504,
+        2229453
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:22:55Z"
+    },
+    {
+      "Partition": "04|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 583950,
+      "CoverageRows": 583950,
+      "CoverageMatchedRows": 579283,
+      "PreviewMatchedRows": 579283,
+      "ImpactMatchedRows": 579283,
+      "ImpactGroups": 2591,
+      "CoverageGroups": 579,
+      "EligibleFlights": 579036,
+      "DelayedFlights": 108308,
+      "FlightKeyRange": [
+        1645504,
+        2229453
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:22:54Z"
+    },
+    {
+      "Partition": "04|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 583950,
+      "CoverageRows": 583950,
+      "CoverageMatchedRows": 583932,
+      "PreviewMatchedRows": 583932,
+      "ImpactMatchedRows": 583932,
+      "ImpactGroups": 2616,
+      "CoverageGroups": 340,
+      "EligibleFlights": 577714,
+      "DelayedFlights": 113595,
+      "FlightKeyRange": [
+        1645504,
+        2229453
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:22:54Z"
+    },
+    {
+      "Partition": "04|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 583950,
+      "CoverageRows": 583950,
+      "CoverageMatchedRows": 583950,
+      "PreviewMatchedRows": 583950,
+      "ImpactMatchedRows": 583950,
+      "ImpactGroups": 2614,
+      "CoverageGroups": 332,
+      "EligibleFlights": 579036,
+      "DelayedFlights": 108308,
+      "FlightKeyRange": [
+        1645504,
+        2229453
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:22:53Z"
+    },
+    {
+      "Partition": "05|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 605648,
+      "CoverageRows": 605648,
+      "CoverageMatchedRows": 597564,
+      "PreviewMatchedRows": 597564,
+      "ImpactMatchedRows": 597564,
+      "ImpactGroups": 2707,
+      "CoverageGroups": 763,
+      "EligibleFlights": 597564,
+      "DelayedFlights": 141028,
+      "FlightKeyRange": [
+        2229454,
+        2835101
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:26:36Z"
+    },
+    {
+      "Partition": "05|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 605648,
+      "CoverageRows": 605648,
+      "CoverageMatchedRows": 599661,
+      "PreviewMatchedRows": 599661,
+      "ImpactMatchedRows": 599661,
+      "ImpactGroups": 2711,
+      "CoverageGroups": 580,
+      "EligibleFlights": 599304,
+      "DelayedFlights": 134810,
+      "FlightKeyRange": [
+        2229454,
+        2835101
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:26:36Z"
+    },
+    {
+      "Partition": "05|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 605648,
+      "CoverageRows": 605648,
+      "CoverageMatchedRows": 605640,
+      "PreviewMatchedRows": 605640,
+      "ImpactMatchedRows": 605640,
+      "ImpactGroups": 2726,
+      "CoverageGroups": 342,
+      "EligibleFlights": 597569,
+      "DelayedFlights": 141033,
+      "FlightKeyRange": [
+        2229454,
+        2835101
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:26:35Z"
+    },
+    {
+      "Partition": "05|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 605648,
+      "CoverageRows": 605648,
+      "CoverageMatchedRows": 605648,
+      "PreviewMatchedRows": 605648,
+      "ImpactMatchedRows": 605648,
+      "ImpactGroups": 2726,
+      "CoverageGroups": 338,
+      "EligibleFlights": 599304,
+      "DelayedFlights": 134810,
+      "FlightKeyRange": [
+        2229454,
+        2835101
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:26:34Z"
+    },
+    {
+      "Partition": "06|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 611575,
+      "CoverageRows": 611575,
+      "CoverageMatchedRows": 599448,
+      "PreviewMatchedRows": 599448,
+      "ImpactMatchedRows": 599448,
+      "ImpactGroups": 2572,
+      "CoverageGroups": 803,
+      "EligibleFlights": 599448,
+      "DelayedFlights": 169384,
+      "FlightKeyRange": [
+        2835102,
+        3446676
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:30:03Z"
+    },
+    {
+      "Partition": "06|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 611575,
+      "CoverageRows": 611575,
+      "CoverageMatchedRows": 602373,
+      "PreviewMatchedRows": 602373,
+      "ImpactMatchedRows": 602373,
+      "ImpactGroups": 2540,
+      "CoverageGroups": 605,
+      "EligibleFlights": 601839,
+      "DelayedFlights": 165116,
+      "FlightKeyRange": [
+        2835102,
+        3446676
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:30:02Z"
+    },
+    {
+      "Partition": "06|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 611575,
+      "CoverageRows": 611575,
+      "CoverageMatchedRows": 611550,
+      "PreviewMatchedRows": 611550,
+      "ImpactMatchedRows": 611550,
+      "ImpactGroups": 2590,
+      "CoverageGroups": 366,
+      "EligibleFlights": 599457,
+      "DelayedFlights": 169393,
+      "FlightKeyRange": [
+        2835102,
+        3446676
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:30:02Z"
+    },
+    {
+      "Partition": "06|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 611575,
+      "CoverageRows": 611575,
+      "CoverageMatchedRows": 611575,
+      "PreviewMatchedRows": 611575,
+      "ImpactMatchedRows": 611575,
+      "ImpactGroups": 2566,
+      "CoverageGroups": 345,
+      "EligibleFlights": 601839,
+      "DelayedFlights": 165116,
+      "FlightKeyRange": [
+        2835102,
+        3446676
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:30:01Z"
+    },
+    {
+      "Partition": "07|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 631428,
+      "CoverageRows": 631428,
+      "CoverageMatchedRows": 612795,
+      "PreviewMatchedRows": 612795,
+      "ImpactMatchedRows": 612795,
+      "ImpactGroups": 2461,
+      "CoverageGroups": 844,
+      "EligibleFlights": 612795,
+      "DelayedFlights": 177000,
+      "FlightKeyRange": [
+        3446677,
+        4078104
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:33:18Z"
+    },
+    {
+      "Partition": "07|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 631428,
+      "CoverageRows": 631428,
+      "CoverageMatchedRows": 616879,
+      "PreviewMatchedRows": 616879,
+      "ImpactMatchedRows": 616879,
+      "ImpactGroups": 2454,
+      "CoverageGroups": 630,
+      "EligibleFlights": 615955,
+      "DelayedFlights": 175907,
+      "FlightKeyRange": [
+        3446677,
+        4078104
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:33:17Z"
+    },
+    {
+      "Partition": "07|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 631428,
+      "CoverageRows": 631428,
+      "CoverageMatchedRows": 631410,
+      "PreviewMatchedRows": 631410,
+      "ImpactMatchedRows": 631410,
+      "ImpactGroups": 2481,
+      "CoverageGroups": 355,
+      "EligibleFlights": 612799,
+      "DelayedFlights": 177004,
+      "FlightKeyRange": [
+        3446677,
+        4078104
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:33:17Z"
+    },
+    {
+      "Partition": "07|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 631428,
+      "CoverageRows": 631428,
+      "CoverageMatchedRows": 631428,
+      "PreviewMatchedRows": 631428,
+      "ImpactMatchedRows": 631428,
+      "ImpactGroups": 2491,
+      "CoverageGroups": 345,
+      "EligibleFlights": 615955,
+      "DelayedFlights": 175907,
+      "FlightKeyRange": [
+        3446677,
+        4078104
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:33:16Z"
+    },
+    {
+      "Partition": "08|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 602378,
+      "CoverageRows": 602378,
+      "CoverageMatchedRows": 593727,
+      "PreviewMatchedRows": 593727,
+      "ImpactMatchedRows": 593727,
+      "ImpactGroups": 2310,
+      "CoverageGroups": 789,
+      "EligibleFlights": 593727,
+      "DelayedFlights": 133914,
+      "FlightKeyRange": [
+        4078105,
+        4680482
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:36:25Z"
+    },
+    {
+      "Partition": "08|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 602378,
+      "CoverageRows": 602378,
+      "CoverageMatchedRows": 596229,
+      "PreviewMatchedRows": 596229,
+      "ImpactMatchedRows": 596229,
+      "ImpactGroups": 2322,
+      "CoverageGroups": 612,
+      "EligibleFlights": 595893,
+      "DelayedFlights": 133097,
+      "FlightKeyRange": [
+        4078105,
+        4680482
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:36:25Z"
+    },
+    {
+      "Partition": "08|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 602378,
+      "CoverageRows": 602378,
+      "CoverageMatchedRows": 602371,
+      "PreviewMatchedRows": 602371,
+      "ImpactMatchedRows": 602371,
+      "ImpactGroups": 2332,
+      "CoverageGroups": 354,
+      "EligibleFlights": 593727,
+      "DelayedFlights": 133914,
+      "FlightKeyRange": [
+        4078105,
+        4680482
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:36:24Z"
+    },
+    {
+      "Partition": "08|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 602378,
+      "CoverageRows": 602378,
+      "CoverageMatchedRows": 602378,
+      "PreviewMatchedRows": 602378,
+      "ImpactMatchedRows": 602378,
+      "ImpactGroups": 2355,
+      "CoverageGroups": 348,
+      "EligibleFlights": 595895,
+      "DelayedFlights": 133098,
+      "FlightKeyRange": [
+        4078105,
+        4680482
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:36:24Z"
+    },
+    {
+      "Partition": "09|ACTUAL_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 562439,
+      "CoverageRows": 562439,
+      "CoverageMatchedRows": 558318,
+      "PreviewMatchedRows": 558318,
+      "ImpactMatchedRows": 558318,
+      "ImpactGroups": 2334,
+      "CoverageGroups": 710,
+      "EligibleFlights": 558318,
+      "DelayedFlights": 92851,
+      "FlightKeyRange": [
+        4680483,
+        5242921
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:07:39Z"
+    },
+    {
+      "Partition": "09|ACTUAL_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 562439,
+      "CoverageRows": 562439,
+      "CoverageMatchedRows": 559718,
+      "PreviewMatchedRows": 559718,
+      "ImpactMatchedRows": 559718,
+      "ImpactGroups": 2336,
+      "CoverageGroups": 557,
+      "EligibleFlights": 559553,
+      "DelayedFlights": 92269,
+      "FlightKeyRange": [
+        4680483,
+        5242921
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:37:59Z"
+    },
+    {
+      "Partition": "09|SCHEDULED_ARRIVAL",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 562439,
+      "CoverageRows": 562439,
+      "CoverageMatchedRows": 562426,
+      "PreviewMatchedRows": 562426,
+      "ImpactMatchedRows": 562426,
+      "ImpactGroups": 2337,
+      "CoverageGroups": 355,
+      "EligibleFlights": 558318,
+      "DelayedFlights": 92851,
+      "FlightKeyRange": [
+        4680483,
+        5242921
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:37:58Z"
+    },
+    {
+      "Partition": "09|SCHEDULED_DEPARTURE",
+      "Result": "PASS",
+      "Checks": {
+        "CoverageRowsEqualExpected": true,
+        "CoverageMatchedEqualsPreview": true,
+        "ImpactRowsPlusExcludedEqualMatched": true,
+        "NoIntegrityFlags": true,
+        "CoverageKeyRulesClean": true,
+        "EligibleLEFlights": true,
+        "DelayedLEEligible": true,
+        "DistinctWeatherLERows": true
+      },
+      "IntegrityFlags": {
+        "FlagMissingFlight": 0,
+        "FlagFlightMonthMismatch": 0,
+        "FlagBridgeMonthMismatch": 0,
+        "FlagMissingWeather": 0,
+        "FlagNaturalKeyMismatch": 0,
+        "FlagRoleMismatch": 0,
+        "ExcludedRows": 0
+      },
+      "ExpectedRows": 562439,
+      "CoverageRows": 562439,
+      "CoverageMatchedRows": 562439,
+      "PreviewMatchedRows": 562439,
+      "ImpactMatchedRows": 562439,
+      "ImpactGroups": 2353,
+      "CoverageGroups": 345,
+      "EligibleFlights": 559553,
+      "DelayedFlights": 92269,
+      "FlightKeyRange": [
+        4680483,
+        5242921
+      ],
+      "ChunkSize": 50000,
+      "Tool": "fw-export-1.0.0",
+      "JournalSHA256": "bb3188f777dece8101bbe4074bc17a5654e56248a5aada040a2b3a7a64e92f20",
+      "ExportedAtUTC": "2026-11-18T16:37:58Z"
+    }
+  ],
+  "Files": {
+    "flight_weather_impact_2025.csv": {
+      "Rows": 89114,
+      "SHA256": "9b78d42c82eb61f399809051824ea71a7dd31e1651381c0506e788a9cc111363"
+    },
+    "flight_weather_coverage_2025.csv": {
+      "Rows": 18600,
+      "SHA256": "6a890aaadcd13adfb0c62035ed1d4468176406a64b32aa6498852799226af32b"
+    }
+  },
+  "Notes": [
+    "Impact = MATCHED_WEATHER_HOUR rows only; coverage = every WeatherCoverageStatus.",
+    "Counts are exposure events; one flight appears once per ExposureType. Do not sum across ExposureType.",
+    "Bands are exploratory groupings in Open-Meteo source units (mm, km/h), not hazard scales.",
+    "Descriptive association only; not causal inference."
+  ]
+}
